@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+#bottombar {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  display: inline;
+}
+#bottombar a {
+  color: green;
+}
+body {
+  background-color: black;
+  margin: 0;
+  font-family: Arial;
+}
+
+.header a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.header a:hover {
+  color: #f1f1f1;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 4px 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 4px 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  padding: 14px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+	<a href="/">/</a>
+</div>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <a href="/deadlabels/ambivalence.html"><img src="https://res.cloudinary.com/roedecker/image/upload/v1677233509/gelman/deadlabels/FrontA.jpg" style="width:50%"></a>
+    <a href="/deadlabels/elfcut.html"><img src="https://res.cloudinary.com/roedecker/image/upload/v1677233508/gelman/deadlabels/FrontE.jpg" style="width:50%"></a>
+    <a href="/deadlabels/immune.html"><img src="https://res.cloudinary.com/roedecker/image/upload/v1678103529/gelman/deadlabels/FrontI.png" style="width:50%"></a>
+    <a href="/deadlabels/merck.html"><img src="https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/front_squares/FrontM.jpg" style="width:50%"></a>
+  </div>
+  <div class="column">
+    <a href="/deadlabels/beaumonde.html"><img src="https://res.cloudinary.com/roedecker/image/upload/v1677233504/gelman/deadlabels/FrontB.jpg" style="width:50%"></a>
+    <a href="/deadlabels/frogman.html"><img src="https://res.cloudinary.com/roedecker/image/upload/v1677233510/gelman/deadlabels/FrontF.jpg" style="width:50%"></a>
+    <a href="/deadlabels/japo.html"><img src="https://res.cloudinary.com/roedecker/image/upload/v1679337053/gelman/deadlabels/FrontJ.jpg" style="width:50%"></a>
+  </div>  
+  <div class="column">
+    <a href="/deadlabels/clear.html"><img src="https://res.cloudinary.com/roedecker/image/upload/v1677233506/gelman/deadlabels/FrontC.jpg" style="width:50%"></a>
+    <a href="/deadlabels/gneiss.html"><img src="https://res.cloudinary.com/roedecker/image/upload/v1677233510/gelman/deadlabels/FrontG.jpg" style="width:50%"></a>
+    <a href="/deadlabels/k2o.html"><img src="https://res.cloudinary.com/roedecker/image/upload/v1681847756/gelman/deadlabels/grsiark8cbvgi2xer8zm.jpg" style="width:50%"></a>
+  </div>
+  <div class="column">
+    <a href="/deadlabels/defocus.html"><img src="https://res.cloudinary.com/roedecker/image/upload/v1677233507/gelman/deadlabels/FrontD.jpg" style="width:50%"></a>
+    <a href="/deadlabels/hefty.html"><img src="https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/front_squares/FrontH.jpg" style="width:50%"></a>
+    <a href="/deadlabels/ladomat2000.html"><img src="https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/front_squares/FrontL.jpg" style="width:50%"></a>
+  </div>
+</div>
+</body>
+</html>
+
