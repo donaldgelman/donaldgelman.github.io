@@ -3836,7 +3836,6 @@ var doors_txfs03 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1690918541/doors_txfs03/thexfiles_s03e21_17.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690918506/doors_txfs03/thexfiles_s03e21_16.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690918501/doors_txfs03/thexfiles_s03e21_15.webm',
-'https://res.cloudinary.com/roedecker/video/upload/v1690918465/doors_txfs03/thexfiles_s03e21_14.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690918428/doors_txfs03/thexfiles_s03e21_13.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690918383/doors_txfs03/thexfiles_s03e21_12.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690918340/doors_txfs03/thexfiles_s03e21_11.webm',
