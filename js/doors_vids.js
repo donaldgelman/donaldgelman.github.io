@@ -566,6 +566,14 @@ var doors_cinema3 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1681209806/doors_cinema3/theleopardman_10.webm',
 ]
 var doors_cinema4 = [
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700621714/doors_cinema4/thenightstrangler_curtis_1973_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700621683/doors_cinema4/thenightstrangler_curtis_1973_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700621632/doors_cinema4/thenightstrangler_curtis_1973_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700621580/doors_cinema4/thenightstrangler_curtis_1973_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700621533/doors_cinema4/thenightstrangler_curtis_1973_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700621502/doors_cinema4/thenightstrangler_curtis_1973_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700621453/doors_cinema4/thenightstrangler_curtis_1973_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700530242/doors_cinema4/thenightstalker_moxey_1972_9.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700530217/doors_cinema4/thenightstalker_moxey_1972_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700530166/doors_cinema4/thenightstalker_moxey_1972_7.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700530136/doors_cinema4/thenightstalker_moxey_1972_6.webm',
@@ -2327,7 +2335,6 @@ var doors_mlms03 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695553821/doors_mlms03/millennium_s03e01_02.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695553809/doors_mlms03/millennium_s03e01_01.webm',
 ]
-
 var doors_theinvaders = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700447049/doors_theinvaders/theinvaders_s02e01_medford_1967_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700447019/doors_theinvaders/theinvaders_s02e01_medford_1967_7.webm',
