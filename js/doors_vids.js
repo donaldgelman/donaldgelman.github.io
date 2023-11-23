@@ -1364,6 +1364,15 @@ var doors_cinema = [
 'https://res.cloudinary.com/roedecker/video/upload/v1680347939/doors_cinema/womanontherun_11.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680347888/doors_cinema/womanontherun_10.webm',
 ]
+var doors_ds9 = [
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700657862/doors_ds9/startrekdeepspacenine_s01e12_kolbe_1993_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700657834/doors_ds9/startrekdeepspacenine_s01e12_kolbe_1993_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700657803/doors_ds9/startrekdeepspacenine_s01e12_kolbe_1993_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700657782/doors_ds9/startrekdeepspacenine_s01e12_kolbe_1993_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700657768/doors_ds9/startrekdeepspacenine_s01e12_kolbe_1993_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700657727/doors_ds9/startrekdeepspacenine_s01e12_kolbe_1993_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1700657714/doors_ds9/startrekdeepspacenine_s01e12_kolbe_1993_1.webm',
+]
 var doors_EI = [
 'https://res.cloudinary.com/roedecker/video/upload/v1692702586/doors_EI/eerieindiana_s01e17_05.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692702552/doors_EI/eerieindiana_s01e17_04.webm',
