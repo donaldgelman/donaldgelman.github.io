@@ -1389,6 +1389,17 @@ var doors_cinema = [
 'https://res.cloudinary.com/roedecker/video/upload/v1680347888/doors_cinema/womanontherun_10.webm',
 ]
 var doors_ds9 = [
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1701847003/doors_ds9/startrekdeepspacenine_s03e04_bole_equilibrium_1994_8.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1701846986/doors_ds9/startrekdeepspacenine_s03e04_bole_equilibrium_1994_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1701846965/doors_ds9/startrekdeepspacenine_s03e04_bole_equilibrium_1994_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1701846950/doors_ds9/startrekdeepspacenine_s03e04_bole_equilibrium_1994_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1701846936/doors_ds9/startrekdeepspacenine_s03e04_bole_equilibrium_1994_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1701846927/doors_ds9/startrekdeepspacenine_s03e04_bole_equilibrium_1994_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1701846916/doors_ds9/startrekdeepspacenine_s03e04_bole_equilibrium_1994_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1701846893/doors_ds9/startrekdeepspacenine_s03e04_bole_equilibrium_1994_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1701846881/doors_ds9/startrekdeepspacenine_s03e04_bole_equilibrium_1994_11.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1701846873/doors_ds9/startrekdeepspacenine_s03e04_bole_equilibrium_1994_10.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1701838123/doors_ds9/startrekdeepspacenine_s03e03_landau_thehouseofquark_1994_9.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1701838104/doors_ds9/startrekdeepspacenine_s03e03_landau_thehouseofquark_1994_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1701838054/doors_ds9/startrekdeepspacenine_s03e03_landau_thehouseofquark_1994_7.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1701838025/doors_ds9/startrekdeepspacenine_s03e03_landau_thehouseofquark_1994_6.webm',
