@@ -6348,6 +6348,3 @@ var doors_txfs11 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1691335689/doors_txfs11/txfs11e06_2.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691335672/doors_txfs11/txfs11e06_1.webm',
 ]
-var theinvaders_s02e09_donmedford_summitmeetingpart1_1967_13.webm = [
-'https://res.cloudinary.com/dsstucmpc/video/upload/v1703823364/theinvaders_s02e09_donmedford_summitmeetingpart1_1967_13.webm/theinvaders_s02e09_donmedford_summitmeetingpart1_1967_11.webm',
-]
