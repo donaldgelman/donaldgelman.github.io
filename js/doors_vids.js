@@ -3666,6 +3666,18 @@ var doors_tlg = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706922191/doors_tlg/thelonegunmen_s01e04_richardcompton_likewaterforoctane_2001_5.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706922208/doors_tlg/thelonegunmen_s01e04_richardcompton_likewaterforoctane_2001_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706922217/doors_tlg/thelonegunmen_s01e04_richardcompton_likewaterforoctane_2001_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1706922222/doors_tlg/thelonegunmen_s01e04_richardcompton_likewaterforoctane_2001_8.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707008306/doors_tlg/thelonegunmen_s01e05_bryanspicer_threemenandasmokingdiaper_2001_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707008113/doors_tlg/thelonegunmen_s01e05_bryanspicer_threemenandasmokingdiaper_2001_10.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707008139/doors_tlg/thelonegunmen_s01e05_bryanspicer_threemenandasmokingdiaper_2001_11.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707008159/doors_tlg/thelonegunmen_s01e05_bryanspicer_threemenandasmokingdiaper_2001_12.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707008327/doors_tlg/thelonegunmen_s01e05_bryanspicer_threemenandasmokingdiaper_2001_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707008350/doors_tlg/thelonegunmen_s01e05_bryanspicer_threemenandasmokingdiaper_2001_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707008371/doors_tlg/thelonegunmen_s01e05_bryanspicer_threemenandasmokingdiaper_2001_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707008392/doors_tlg/thelonegunmen_s01e05_bryanspicer_threemenandasmokingdiaper_2001_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707008413/doors_tlg/thelonegunmen_s01e05_bryanspicer_threemenandasmokingdiaper_2001_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707008436/doors_tlg/thelonegunmen_s01e05_bryanspicer_threemenandasmokingdiaper_2001_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707008458/doors_tlg/thelonegunmen_s01e05_bryanspicer_threemenandasmokingdiaper_2001_8.webm',
 ]
 var doors_tpfwwm = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693935737/doors_tpfwwm/twinpeaksfirewalkwithme_lynch_1992_19.webm',
