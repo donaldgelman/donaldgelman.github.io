@@ -3706,6 +3706,15 @@ var doors_tlg = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1707103898/doors_tlg/thelonegunmen_s01e07_johntkretchmer_planetofthefrohikes_2001_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1707103906/doors_tlg/thelonegunmen_s01e07_johntkretchmer_planetofthefrohikes_2001_7.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1707103911/doors_tlg/thelonegunmen_s01e07_johntkretchmer_planetofthefrohikes_2001_8.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707103952/doors_tlg/thelonegunmen_s01e07_johntkretchmer_planetofthefrohikes_2001_9.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707180450/doors_tlg/thelonegunmen_s01e08_vincentmisiano_maximumbyers_2001_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707180465/doors_tlg/thelonegunmen_s01e08_vincentmisiano_maximumbyers_2001_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707180474/doors_tlg/thelonegunmen_s01e08_vincentmisiano_maximumbyers_2001_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707180498/doors_tlg/thelonegunmen_s01e08_vincentmisiano_maximumbyers_2001_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707180517/doors_tlg/thelonegunmen_s01e08_vincentmisiano_maximumbyers_2001_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707180523/doors_tlg/thelonegunmen_s01e08_vincentmisiano_maximumbyers_2001_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707180545/doors_tlg/thelonegunmen_s01e08_vincentmisiano_maximumbyers_2001_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1707180554/doors_tlg/thelonegunmen_s01e08_vincentmisiano_maximumbyers_2001_8.webm',
 ]
 var doors_tpfwwm = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693935737/doors_tpfwwm/twinpeaksfirewalkwithme_lynch_1992_19.webm',
