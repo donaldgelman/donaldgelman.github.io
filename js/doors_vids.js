@@ -3064,6 +3064,12 @@ var doors_nowhereman = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1712286771/doors_nowhereman/nowhereman_s01e22_rezabadiyi_calaway_1996_7.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1712286782/doors_nowhereman/nowhereman_s01e22_rezabadiyi_calaway_1996_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1712286800/doors_nowhereman/nowhereman_s01e22_rezabadiyi_calaway_1996_9.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712368484/doors_nowhereman/nowhereman_s01e23_jameswhitmorejr_zerominusten_1996_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712368497/doors_nowhereman/nowhereman_s01e23_jameswhitmorejr_zerominusten_1996_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712368502/doors_nowhereman/nowhereman_s01e23_jameswhitmorejr_zerominusten_1996_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712368506/doors_nowhereman/nowhereman_s01e23_jameswhitmorejr_zerominusten_1996_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712368523/doors_nowhereman/nowhereman_s01e23_jameswhitmorejr_zerominusten_1996_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712368527/doors_nowhereman/nowhereman_s01e23_jameswhitmorejr_zerominusten_1996_6.webm',
 ]
 var doors_spaceaboveandbeyond = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1703220420/doors_spaceaboveandbeyond/spaceaboveandbeyond_s01e23_thomasjwright_tellourmomswedoneourbest_1996_8.webm',
