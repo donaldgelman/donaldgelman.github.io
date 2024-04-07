@@ -3070,6 +3070,16 @@ var doors_nowhereman = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1712368506/doors_nowhereman/nowhereman_s01e23_jameswhitmorejr_zerominusten_1996_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1712368523/doors_nowhereman/nowhereman_s01e23_jameswhitmorejr_zerominusten_1996_5.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1712368527/doors_nowhereman/nowhereman_s01e23_jameswhitmorejr_zerominusten_1996_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712368546/doors_nowhereman/nowhereman_s01e23_jameswhitmorejr_zerominusten_1996_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712452431/doors_nowhereman/nowhereman_s01e24_stephenthomasstafford_marathon_1996_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712452417/doors_nowhereman/nowhereman_s01e24_stephenthomasstafford_marathon_1996_10.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712452445/doors_nowhereman/nowhereman_s01e24_stephenthomasstafford_marathon_1996_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712452451/doors_nowhereman/nowhereman_s01e24_stephenthomasstafford_marathon_1996_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712452453/doors_nowhereman/nowhereman_s01e24_stephenthomasstafford_marathon_1996_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712452455/doors_nowhereman/nowhereman_s01e24_stephenthomasstafford_marathon_1996_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712452463/doors_nowhereman/nowhereman_s01e24_stephenthomasstafford_marathon_1996_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712452477/doors_nowhereman/nowhereman_s01e24_stephenthomasstafford_marathon_1996_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1712452494/doors_nowhereman/nowhereman_s01e24_stephenthomasstafford_marathon_1996_8.webm',
 ]
 var doors_spaceaboveandbeyond = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1703220420/doors_spaceaboveandbeyond/spaceaboveandbeyond_s01e23_thomasjwright_tellourmomswedoneourbest_1996_8.webm',
