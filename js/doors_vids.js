@@ -1188,7 +1188,6 @@ var doors_cinema = [
 'https://res.cloudinary.com/roedecker/video/upload/v1680580505/doors_cinema/sonofdracula_siodmak_1943_01.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680580470/doors_cinema/sonofdracula_siodmak_1943_19.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680580411/doors_cinema/sonofdracula_siodmak_1943_18.webm',
-'https://res.cloudinary.com/roedecker/video/upload/v1680580358/doors_cinema/sonofdracula_siodmak_1943_17.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680580319/doors_cinema/sonofdracula_siodmak_1943_16.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680580289/doors_cinema/sonofdracula_siodmak_1943_15.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680580251/doors_cinema/sonofdracula_siodmak_1943_14.webm',
