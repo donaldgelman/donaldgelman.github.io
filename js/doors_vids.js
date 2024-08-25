@@ -2122,6 +2122,16 @@ var doors_fringes01 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1724473323/doors_fringes01/fringe_s01e20_bradanderson_theresmorethanoneofeverything_2009_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1724473347/doors_fringes01/fringe_s01e20_bradanderson_theresmorethanoneofeverything_2009_5.webm',
 ]
+var doors_fringes02 = [
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1724621701/doors_fringes02/fringe_s02e01_akivagoldsman_anewdayintheoldtown_2009_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1724621714/doors_fringes02/fringe_s02e01_akivagoldsman_anewdayintheoldtown_2009_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1724621731/doors_fringes02/fringe_s02e01_akivagoldsman_anewdayintheoldtown_2009_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1724621753/doors_fringes02/fringe_s02e01_akivagoldsman_anewdayintheoldtown_2009_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1724621777/doors_fringes02/fringe_s02e01_akivagoldsman_anewdayintheoldtown_2009_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1724621793/doors_fringes02/fringe_s02e01_akivagoldsman_anewdayintheoldtown_2009_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1724621816/doors_fringes02/fringe_s02e01_akivagoldsman_anewdayintheoldtown_2009_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1724621840/doors_fringes02/fringe_s02e01_akivagoldsman_anewdayintheoldtown_2009_8.webm',
+]
 var doors_kolchak = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700365813/doors_kolchak/kolchak_s01e20_robbie_1975_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700365792/doors_kolchak/kolchak_s01e20_robbie_1975_7.webm',
@@ -7203,7 +7213,7 @@ var doors_txfs09 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184889/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_01.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184854/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_015.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184821/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_014.webm',
-'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184800/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_013.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1724474993/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_013.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184758/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_012.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184740/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_011.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184707/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_010.webm',
