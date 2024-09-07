@@ -2396,6 +2396,18 @@ var doors_fringes03 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725651605/doors_fringes03/fringe_s03e18_joechappelle_lysergicaciddiethylamide_2011_5.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725651613/doors_fringes03/fringe_s03e18_joechappelle_lysergicaciddiethylamide_2011_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725651620/doors_fringes03/fringe_s03e18_joechappelle_lysergicaciddiethylamide_2011_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725651638/doors_fringes03/fringe_s03e18_joechappelle_lysergicaciddiethylamide_2011_8.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725665009/doors_fringes03/fringe_s03e20_jeannotszwarc_602amest_2011_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725665025/doors_fringes03/fringe_s03e20_jeannotszwarc_602amest_2011_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725665081/doors_fringes03/fringe_s03e20_jeannotszwarc_602amest_2011_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725665089/doors_fringes03/fringe_s03e20_jeannotszwarc_602amest_2011_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725665096/doors_fringes03/fringe_s03e20_jeannotszwarc_602amest_2011_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725665108/doors_fringes03/fringe_s03e20_jeannotszwarc_602amest_2011_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725665118/doors_fringes03/fringe_s03e20_jeannotszwarc_602amest_2011_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725665145/doors_fringes03/fringe_s03e20_jeannotszwarc_602amest_2011_8.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725670865/doors_fringes03/fringe_s03e21_thomasyatsko_thelastsamweiss_2011_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725672817/doors_fringes03/fringe_s03e22_joechappelle_thedaywedied_2011_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725672827/doors_fringes03/fringe_s03e22_joechappelle_thedaywedied_2011_2.webm',
 ]
 var doors_kolchak = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700365813/doors_kolchak/kolchak_s01e20_robbie_1975_8.webm',
