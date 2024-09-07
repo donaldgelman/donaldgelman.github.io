@@ -2409,6 +2409,18 @@ var doors_fringes03 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725672817/doors_fringes03/fringe_s03e22_joechappelle_thedaywedied_2011_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725672827/doors_fringes03/fringe_s03e22_joechappelle_thedaywedied_2011_2.webm',
 ]
+var doors_fringes04 = [
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719114/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719099/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_10.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719105/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_11.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719126/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719136/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719140/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719154/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719167/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719173/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719196/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_8.webm',
+]
 var doors_kolchak = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700365813/doors_kolchak/kolchak_s01e20_robbie_1975_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700365792/doors_kolchak/kolchak_s01e20_robbie_1975_7.webm',
