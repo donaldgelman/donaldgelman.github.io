@@ -2433,6 +2433,13 @@ var doors_fringes05 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726017019/doors_fringes05/fringe_s05e02_jeannotswarc_inabsentia_2012_5.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726017037/doors_fringes05/fringe_s05e02_jeannotswarc_inabsentia_2012_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726017050/doors_fringes05/fringe_s05e02_jeannotswarc_inabsentia_2012_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726083775/doors_fringes05/fringe_s05e04_davidstraiton_thebulletthatsavedtheworld_2012_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726083794/doors_fringes05/fringe_s05e04_davidstraiton_thebulletthatsavedtheworld_2012_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726083817/doors_fringes05/fringe_s05e04_davidstraiton_thebulletthatsavedtheworld_2012_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726083827/doors_fringes05/fringe_s05e04_davidstraiton_thebulletthatsavedtheworld_2012_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726083843/doors_fringes05/fringe_s05e04_davidstraiton_thebulletthatsavedtheworld_2012_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726083855/doors_fringes05/fringe_s05e04_davidstraiton_thebulletthatsavedtheworld_2012_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726083866/doors_fringes05/fringe_s05e04_davidstraiton_thebulletthatsavedtheworld_2012_7.webm',
 ]
 var doors_kolchak = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700365813/doors_kolchak/kolchak_s01e20_robbie_1975_8.webm',
