@@ -2416,6 +2416,24 @@ var doors_fringes04 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1725959907/doors_fringes04/fringe_s04e22_joechappelle_bravenewworldpart2_2012_1.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1725959934/doors_fringes04/fringe_s04e22_joechappelle_bravenewworldpart2_2012_2.webm',
 ]
+var doors_fringes05 = [
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725999447/doors_fringes05/fringe_s05e01_jeannotswarcmiguelsapochnik_transiliencethoughtunifiermodel11_2012_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725999467/doors_fringes05/fringe_s05e01_jeannotswarcmiguelsapochnik_transiliencethoughtunifiermodel11_2012_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725999490/doors_fringes05/fringe_s05e01_jeannotswarcmiguelsapochnik_transiliencethoughtunifiermodel11_2012_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725999503/doors_fringes05/fringe_s05e01_jeannotswarcmiguelsapochnik_transiliencethoughtunifiermodel11_2012_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725999511/doors_fringes05/fringe_s05e01_jeannotswarcmiguelsapochnik_transiliencethoughtunifiermodel11_2012_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725999524/doors_fringes05/fringe_s05e01_jeannotswarcmiguelsapochnik_transiliencethoughtunifiermodel11_2012_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725999549/doors_fringes05/fringe_s05e01_jeannotswarcmiguelsapochnik_transiliencethoughtunifiermodel11_2012_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725999558/doors_fringes05/fringe_s05e01_jeannotswarcmiguelsapochnik_transiliencethoughtunifiermodel11_2012_8.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1725999563/doors_fringes05/fringe_s05e01_jeannotswarcmiguelsapochnik_transiliencethoughtunifiermodel11_2012_9.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726016962/doors_fringes05/fringe_s05e02_jeannotswarc_inabsentia_2012_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726016974/doors_fringes05/fringe_s05e02_jeannotswarc_inabsentia_2012_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726016982/doors_fringes05/fringe_s05e02_jeannotswarc_inabsentia_2012_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726017004/doors_fringes05/fringe_s05e02_jeannotswarc_inabsentia_2012_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726017019/doors_fringes05/fringe_s05e02_jeannotswarc_inabsentia_2012_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726017037/doors_fringes05/fringe_s05e02_jeannotswarc_inabsentia_2012_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726017050/doors_fringes05/fringe_s05e02_jeannotswarc_inabsentia_2012_7.webm',
+]
 var doors_kolchak = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700365813/doors_kolchak/kolchak_s01e20_robbie_1975_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1700365792/doors_kolchak/kolchak_s01e20_robbie_1975_7.webm',
