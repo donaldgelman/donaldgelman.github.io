@@ -1383,6 +1383,16 @@ var doors_cinema = [
 'https://res.cloudinary.com/roedecker/video/upload/v1680348609/doors_cinema/womanontherun_foster_1950_08.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680348640/doors_cinema/womanontherun_foster_1950_09.webm',
 ]
+var doors_continuums01 = [
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192042/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192049/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192061/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192085/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192106/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192130/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192145/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192164/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_8.webm',
+]
 var doors_ds9 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702690392/doors_ds9/startrekdeepspacenine_s03e26_alexandersinger_theadversary_1995_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702690380/doors_ds9/startrekdeepspacenine_s03e26_alexandersinger_theadversary_1995_7.webm',
