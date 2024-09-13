@@ -1392,6 +1392,12 @@ var doors_continuums01 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192130/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192145/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_7.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192164/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_8.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192184/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_9.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726256380/doors_continuums01/continuum_s01e02_joncassar_fasttimes_2012_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726256406/doors_continuums01/continuum_s01e02_joncassar_fasttimes_2012_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726256420/doors_continuums01/continuum_s01e02_joncassar_fasttimes_2012_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726256435/doors_continuums01/continuum_s01e02_joncassar_fasttimes_2012_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726256470/doors_continuums01/continuum_s01e02_joncassar_fasttimes_2012_5.webm',
 ]
 var doors_ds9 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702690392/doors_ds9/startrekdeepspacenine_s03e26_alexandersinger_theadversary_1995_8.webm',
