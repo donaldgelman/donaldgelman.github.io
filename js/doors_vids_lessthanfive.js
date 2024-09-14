@@ -1,11 +1,10 @@
-var doors_cinema2 = [
+var doors_lessthanfive = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694293836/doors_cinema2/christine_carpenter_1983_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694013790/doors_cinema2/crimesofthefuture_cronenberg_1970_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694014067/doors_cinema2/crimesofthefuture_cronenberg_1970_5.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694133531/doors_cinema2/familyplot_hitchcock_1976_12.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694133630/doors_cinema2/familyplot_hitchcock_1976_16.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694134022/doors_cinema2/familyplot_hitchcock_1976_23.webm',
-var doors_cinema4 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695852078/doors_cinema4/alien_ridleyscott_1979_5.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694947775/doors_cinema4/atlanticcity_malle_1980_3.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695090314/doors_cinema4/badtiming_roeg_1980_9.webm',
@@ -77,8 +76,6 @@ var doors_cinema4 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694915540/doors_cinema4/wherethebuffaloroam_linson_1980_5.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1696105419/doors_cinema4/winterkills_richert_1979_12.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1696106030/doors_cinema4/winterkills_richert_1979_3.webm',
-]
-var doors_cinema = [
 'https://res.cloudinary.com/roedecker/video/upload/v1680738342/doors_cinema/abulletiswaiting_farrow_1954_2.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680738367/doors_cinema/abulletiswaiting_farrow_1954_3.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680738390/doors_cinema/abulletiswaiting_farrow_1954_4.webm',
@@ -157,8 +154,6 @@ var doors_cinema = [
 'https://res.cloudinary.com/roedecker/video/upload/v1680654411/doors_cinema/wiseblood_huston_1979_05.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680653963/doors_cinema/wiseblood_huston_1979_16.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1694082716/doors_cinema/wiseblood_huston_1979_17.webm',
-]
-var doors_continuums01 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192042/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192049/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_2.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726192061/doors_continuums01/continuum_s01e01_joncassar_astitchintime_2012_3.webm',
@@ -173,8 +168,6 @@ var doors_continuums01 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726271209/doors_continuums01/continuum_s01e03_davidfrazee_wastingtime_2012_7.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726271213/doors_continuums01/continuum_s01e03_davidfrazee_wastingtime_2012_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726320233/doors_continuums01/continuum_s01e04_michaelrohl_amatteroftime_2012_3.webm',
-]
-var doors_ds9 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1701056962/doors_ds9/startrekdeepspacenine_s01e01_carson_1993_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1701060083/doors_ds9/startrekdeepspacenine_s01e03_kolbe_1993_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1701085281/doors_ds9/startrekdeepspacenine_s01e04_paullynch_1993_6.webm',
@@ -249,8 +242,6 @@ var doors_ds9 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702669056/doors_ds9/startrekdeepspacenine_s03e24_jonathanwest_shakaar_1995_3.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702686347/doors_ds9/startrekdeepspacenine_s03e25_cliffbole_facets_1995_3.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702686392/doors_ds9/startrekdeepspacenine_s03e25_cliffbole_facets_1995_7.webm',
-]
-var doors_EI = [
 'https://res.cloudinary.com/roedecker/video/upload/v1691891742/doors_EI/eerieindiana_s01e05_1991_01.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691891775/doors_EI/eerieindiana_s01e05_1991_03.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691891794/doors_EI/eerieindiana_s01e05_1991_04.webm',
@@ -275,8 +266,6 @@ var doors_EI = [
 'https://res.cloudinary.com/roedecker/video/upload/v1692574249/doors_EI/eerieindiana_s01e18_1992_05.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692574547/doors_EI/eerieindiana_s01e19_1992_05.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692574688/doors_EI/eerieindiana_s01e19_1992_08.webm',
-]
-var doors_fringes01 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1724121720/doors_fringes01/fringe_s01e01_pilot_alexgraves_2008_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1724121676/doors_fringes01/fringe_s01e01_pilot_alexgraves_2008_11.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1724121745/doors_fringes01/fringe_s01e01_pilot_alexgraves_2008_2.webm',
@@ -357,8 +346,6 @@ var doors_fringes01 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1724471188/doors_fringes01/fringe_s01e19_frederickeotoye_theroadnottaken_2009_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1724471208/doors_fringes01/fringe_s01e19_frederickeotoye_theroadnottaken_2009_9.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1724473275/doors_fringes01/fringe_s01e20_bradanderson_theresmorethanoneofeverything_2009_2.webm',
-]
-var doors_fringes02 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1724961155/doors_fringes02/fringe_s02e010_jeannotszwarc_greymatters_2009_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1724961146/doors_fringes02/fringe_s02e010_jeannotszwarc_greymatters_2009_10.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1724961229/doors_fringes02/fringe_s02e010_jeannotszwarc_greymatters_2009_3.webm',
@@ -432,8 +419,6 @@ var doors_fringes02 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725401429/doors_fringes02/fringe_s02e22_akivagoldsman_overtherepart1_2010_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725401560/doors_fringes02/fringe_s02e23_akivagoldsman_overtherepart2_2010_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725401569/doors_fringes02/fringe_s02e23_akivagoldsman_overtherepart2_2010_5.webm',
-]
-var doors_fringes03 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725457118/doors_fringes03/fringe_s03e01_joechappelle_olivia_2010_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725457145/doors_fringes03/fringe_s03e01_joechappelle_olivia_2010_2.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725457219/doors_fringes03/fringe_s03e01_joechappelle_olivia_2010_4.webm',
@@ -494,8 +479,6 @@ var doors_fringes03 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725672817/doors_fringes03/fringe_s03e22_joechappelle_thedaywedied_2011_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725672827/doors_fringes03/fringe_s03e22_joechappelle_thedaywedied_2011_2.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725672832/doors_fringes03/fringe_s03e22_joechappelle_thedaywedied_2011_3.webm',
-]
-var doors_fringes04 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719099/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_10.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719105/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_11.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725719126/doors_fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_2.webm',
@@ -615,8 +598,6 @@ var doors_fringes04 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1725999984/doors_fringes04/fringe_s04e21_joechappelle_bravenewworldpart1_2012_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726000026/doors_fringes04/fringe_s04e21_joechappelle_bravenewworldpart1_2012_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726000061/doors_fringes04/fringe_s04e21_joechappelle_bravenewworldpart1_2012_8.webm',
-]
-var doors_fringes05 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726146187/doors_fringes05/fringe_s05e010_jeffreyhunt_anomalyxb6783746_2012_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726146193/doors_fringes05/fringe_s05e010_jeffreyhunt_anomalyxb6783746_2012_2.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726146197/doors_fringes05/fringe_s05e010_jeffreyhunt_anomalyxb6783746_2012_3.webm',
@@ -659,8 +640,6 @@ var doors_fringes05 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726103426/doors_fringes05/fringe_s05e07_eagleeglisson_fivetwentyten_2012_2.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726134583/doors_fringes05/fringe_s05e08_dennissmith_thehumankind_2012_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726134590/doors_fringes05/fringe_s05e08_dennissmith_thehumankind_2012_2.webm',
-]
-var doors_kolchak = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694993983/doors_kolchak/kolchak_s01e02_grasshoff_1974_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695433543/doors_kolchak/kolchak_s01e03_baron_1974_2.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695434861/doors_kolchak/kolchak_s01e04_weis_1974_1.webm',
@@ -699,8 +678,6 @@ var doors_kolchak = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694916358/doors_kolchak/kolchaks01e01_baron_1974_17.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694916365/doors_kolchak/kolchaks01e01_baron_1974_18.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694916750/doors_kolchak/kolchaks01e01_baron_1974_7.webm',
-]
-var doors_mlms01 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693786671/doors_mlms01/millennium_s01e01_pilot_davidnutter_1996_03.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693786630/doors_mlms01/millennium_s01e01_pilot_davidnutter_1996_05.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693786629/doors_mlms01/millennium_s01e01_pilot_davidnutter_1996_06.webm',
@@ -784,8 +761,6 @@ var doors_mlms01 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1678711103/doors_mlms01/millennium_s01e21_maranatha_petermarkle_1997_08.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1678711134/doors_mlms01/millennium_s01e22_paperdove_thomasjwright_1997_01.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693785751/doors_mlms01/millennium_s01e22_paperdove_thomasjwright_1997_03.webm',
-]
-var doors_mlms02 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1680305086/doors_mlms02/millennium_s02e01_thebeginninandtheend_thomasjwright_1997_01.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693791964/doors_mlms02/millennium_s02e01_thebeginninandtheend_thomasjwright_1997_02.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680305182/doors_mlms02/millennium_s02e01_thebeginninandtheend_thomasjwright_1997_04.webm',
@@ -872,8 +847,6 @@ var doors_mlms02 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1680317707/doors_mlms02/millennium_s02e23_thetimeisnow_thomasjwright_1998_01.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680317758/doors_mlms02/millennium_s02e23_thetimeisnow_thomasjwright_1998_04.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693792314/doors_mlms02/millennium_s02e23_thetimeisnow_thomasjwright_1998_06.webm',
-]
-var doors_mlms03 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695553907/doors_mlms03/millennium_s03e02_exegesis_ralphhemecker_1998_03.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695553941/doors_mlms03/millennium_s03e03_teotwawki_thomasjwright_1998_01.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695553986/doors_mlms03/millennium_s03e03_teotwawki_thomasjwright_1998_04.webm',
@@ -932,8 +905,6 @@ var doors_mlms03 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695555955/doors_mlms03/millennium_s03e21_viadolorosa_paulshapiro_1999_07.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695556026/doors_mlms03/millennium_s03e22_goodbyetoallthat_thomasjwright_1999_01.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695556122/doors_mlms03/millennium_s03e22_goodbyetoallthat_thomasjwright_1999_04.webm',
-]
-var doors_nowhereman = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1710707690/doors_nowhereman/nowhereman_s01e01_tobehooper_absolutezero_1995_10.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1710707780/doors_nowhereman/nowhereman_s01e01_tobehooper_absolutezero_1995_14.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1710708082/doors_nowhereman/nowhereman_s01e01_tobehooper_absolutezero_1995_8.webm',
@@ -1005,8 +976,6 @@ var doors_nowhereman = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1712546441/doors_nowhereman/nowhereman_s01e25_stephenthomasstafford_gemini_1996_12.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1712546443/doors_nowhereman/nowhereman_s01e25_stephenthomasstafford_gemini_1996_13.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1712546445/doors_nowhereman/nowhereman_s01e25_stephenthomasstafford_gemini_1996_14.webm',
-]
-var doors_spaceaboveandbeyond = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702382897/doors_spaceaboveandbeyond/spaceaboveandbeyond_s01e01_davidnutter_pilot_1995_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702383036/doors_spaceaboveandbeyond/spaceaboveandbeyond_s01e01_davidnutter_pilot_1995_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702436961/doors_spaceaboveandbeyond/spaceaboveandbeyond_s01e03_charlesmartinsmith_thedarksideofthesun_1995_1.webm',
@@ -1043,8 +1012,6 @@ var doors_spaceaboveandbeyond = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1703220371/doors_spaceaboveandbeyond/spaceaboveandbeyond_s01e23_thomasjwright_tellourmomswedoneourbest_1996_2.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1703220379/doors_spaceaboveandbeyond/spaceaboveandbeyond_s01e23_thomasjwright_tellourmomswedoneourbest_1996_3.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1703220389/doors_spaceaboveandbeyond/spaceaboveandbeyond_s01e23_thomasjwright_tellourmomswedoneourbest_1996_5.webm',
-]
-var doors_theinvaders = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695743804/doors_theinvaders/theinvaders_s01e01_1967_2.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695743861/doors_theinvaders/theinvaders_s01e01_1967_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695756465/doors_theinvaders/theinvaders_s01e02_1967_13.webm',
@@ -1115,8 +1082,6 @@ var doors_theinvaders = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1712600607/doors_theinvaders/theinvaders_s02e11_robertdouglas_theprophet_1967_10.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1712601152/doors_theinvaders/theinvaders_s02e11_robertdouglas_theprophet_1967_26.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1712601259/doors_theinvaders/theinvaders_s02e11_robertdouglas_theprophet_1967_5.webm',
-]
-var doors_theprisoner = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694957141/doors_theprisoner/theprisoner_s01e01_1967_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694956909/doors_theprisoner/theprisoner_s01e01_1967_10.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1694956986/doors_theprisoner/theprisoner_s01e01_1967_14.webm',
@@ -1182,8 +1147,6 @@ var doors_theprisoner = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695695852/doors_theprisoner/theprisoner_s01e17_1968_2.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695695939/doors_theprisoner/theprisoner_s01e17_1968_5.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1695695987/doors_theprisoner/theprisoner_s01e17_1968_7.webm',
-]
-var doors_tlg = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706700878/doors_tlg/thelonegunmen_s01e01_robbowman_pilot_2001_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706700911/doors_tlg/thelonegunmen_s01e01_robbowman_pilot_2001_3.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706700976/doors_tlg/thelonegunmen_s01e01_robbowman_pilot_2001_5.webm',
@@ -1232,8 +1195,6 @@ var doors_tlg = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1707321610/doors_tlg/thelonegunmen_s01e13_bryanspicer_allaboutyves_2001_11.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1707321678/doors_tlg/thelonegunmen_s01e13_bryanspicer_allaboutyves_2001_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1707321782/doors_tlg/thelonegunmen_s01e13_bryanspicer_allaboutyves_2001_7.webm',
-]
-var doors_tol = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1708305901/doors_tol/theouterlimits_s01e01_stuartgillard_thesandkings_1995_1.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1708305827/doors_tol/theouterlimits_s01e01_stuartgillard_thesandkings_1995_10.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1708305969/doors_tol/theouterlimits_s01e01_stuartgillard_thesandkings_1995_6.webm',
@@ -1321,13 +1282,9 @@ var doors_tol = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1708219028/doors_tol/theouterlimits_s02e21_jonathanglassner_vanishingact_1996_3.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1708219030/doors_tol/theouterlimits_s02e21_jonathanglassner_vanishingact_1996_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1708221092/doors_tol/theouterlimits_s02e22_josephlscanlan_thesentence_1996_5.webm',
-]
-var doors_tpfwwm = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693935523/doors_tpfwwm/twinpeaksfirewalkwithme_lynch_1992_10.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1679842779/doors_tpfwwm/twinpeaksfirewalkwithme_lynch_1992_18.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693935737/doors_tpfwwm/twinpeaksfirewalkwithme_lynch_1992_19.webm',
-]
-var doors_tps01 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693700637/doors_tps01/twinpeaks_s01e01_lynch_1990_02.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693700661/doors_tps01/twinpeaks_s01e01_lynch_1990_05.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1678797241/doors_tps01/twinpeaks_s01e01_lynch_1990_06.webm',
@@ -1353,8 +1310,6 @@ var doors_tps01 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693701471/doors_tps01/twinpeaks_s01e08_frost_1990_09.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693701399/doors_tps01/twinpeaks_s01e08_frost_1990_2_b.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693701441/doors_tps01/twinpeaks_s01e08_frost_1990_9_b.webm',
-]
-var doors_tps02 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693741819/doors_tps02/twinpeaks_s02e01_lynch_1990_02.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693741814/doors_tps02/twinpeaks_s02e01_lynch_1990_04_b.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693741821/doors_tps02/twinpeaks_s02e01_lynch_1990_06.webm',
@@ -1395,8 +1350,6 @@ var doors_tps02 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693745386/doors_tps02/twinpeaks_s02e16_glatter_1991_06.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693745723/doors_tps02/twinpeaks_s02e18_dunham_1991_03_b.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693745958/doors_tps02/twinpeaks_s02e22_lynch_1991_05.webm',
-]
-var doors_tps03 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693765393/doors_tps03/twinpeaks_s03e01_lynch_2017_02.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693765371/doors_tps03/twinpeaks_s03e01_lynch_2017_06.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693765350/doors_tps03/twinpeaks_s03e02_lynch_2017_02.webm',
@@ -1422,8 +1375,6 @@ var doors_tps03 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693766932/doors_tps03/twinpeaks_s03e16_lynch_2017_01.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693765397/doors_tps03/twinpeaks_s03e17_lynch_2017_03.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680023501/doors_tps03/twinpeaks_s03e18_lynch_2017_07.webm',
-]
-var doors_tptmp = [
 'https://res.cloudinary.com/roedecker/video/upload/v1680666514/doors_tptmp/tptmp_12.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680666561/doors_tptmp/tptmp_14.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680666589/doors_tptmp/tptmp_15.webm',
@@ -1431,8 +1382,6 @@ var doors_tptmp = [
 'https://res.cloudinary.com/roedecker/video/upload/v1680666666/doors_tptmp/tptmp_18.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680667228/doors_tptmp/tptmp_7.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680667241/doors_tptmp/tptmp_8.webm',
-]
-var doors_txfftf = [
 'https://res.cloudinary.com/roedecker/video/upload/v1691279650/doors_txfftf/thexfilesfightthefuture_bowman_1998_08.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691279670/doors_txfftf/thexfilesfightthefuture_bowman_1998_09.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691279725/doors_txfftf/thexfilesfightthefuture_bowman_1998_11.webm',
@@ -1444,8 +1393,6 @@ var doors_txfftf = [
 'https://res.cloudinary.com/roedecker/video/upload/v1691279993/doors_txfftf/thexfilesfightthefuture_bowman_1998_21.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691280031/doors_txfftf/thexfilesfightthefuture_bowman_1998_22.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691280187/doors_txfftf/thexfilesfightthefuture_bowman_1998_27.webm',
-]
-var doors_txfiwtb = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693357845/doors_txfiwtb/thexfilesiwanttobelieve_carter_2008_01.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693358308/doors_txfiwtb/thexfilesiwanttobelieve_carter_2008_06.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693358314/doors_txfiwtb/thexfilesiwanttobelieve_carter_2008_07.webm',
@@ -1460,8 +1407,6 @@ var doors_txfiwtb = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693358101/doors_txfiwtb/thexfilesiwanttobelieve_carter_2008_27.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693358150/doors_txfiwtb/thexfilesiwanttobelieve_carter_2008_28.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693358166/doors_txfiwtb/thexfilesiwanttobelieve_carter_2008_29.webm',
-]
-var doors_txfs01 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693532530/doors_txfs01/thexfiles_s01e01_pilot_robertmandel_1993_03_b.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1678579060/doors_txfs01/thexfiles_s01e01_pilot_robertmandel_1993_04.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693532544/doors_txfs01/thexfiles_s01e01_pilot_robertmandel_1993_05.webm',
@@ -1527,8 +1472,6 @@ var doors_txfs01 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693601839/doors_txfs01/thexfiles_s01e24_theerlenmeyerflask_rwgoodwin_1994_12.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693601833/doors_txfs01/thexfiles_s01e24_theerlenmeyerflask_rwgoodwin_1994_12_b.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693601809/doors_txfs01/thexfiles_s01e24_theerlenmeyerflask_rwgoodwin_1994_12_c.webm',
-]
-var doors_txfs02 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693611753/doors_txfs02/thexfiles_s02e01_littlegreenmen_davidnutter_1994_01.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693611787/doors_txfs02/thexfiles_s02e01_littlegreenmen_davidnutter_1994_06.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693611782/doors_txfs02/thexfiles_s02e01_littlegreenmen_davidnutter_1994_07.webm',
@@ -1607,8 +1550,6 @@ var doors_txfs02 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1680219756/doors_txfs02/thexfiles_s02e25_anasazi_rwgoodwin_1995_14.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693620931/doors_txfs02/thexfiles_s02e25_anasazi_rwgoodwin_1995_18.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693620734/doors_txfs02/thexfiles_s02e25_anasazi_rwgoodwin_1995_7_b.webm',
-]
-var doors_txfs03 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1690762820/doors_txfs03/thexfiles_s03e01_theblessingway_rwgoodwin_1995_01.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690762872/doors_txfs03/thexfiles_s03e01_theblessingway_rwgoodwin_1995_02.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690762948/doors_txfs03/thexfiles_s03e01_theblessingway_rwgoodwin_1995_05.webm',
@@ -1680,8 +1621,6 @@ var doors_txfs03 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1690920221/doors_txfs03/thexfiles_s03e24_talithacumi_rwgoodwin_1996_03.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690920283/doors_txfs03/thexfiles_s03e24_talithacumi_rwgoodwin_1996_05.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690920303/doors_txfs03/thexfiles_s03e24_talithacumi_rwgoodwin_1996_06.webm',
-]
-var doors_txfs04 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1690934784/doors_txfs04/thexfiles_s04e01_herrenvolk_rwgoodwin_1996_02.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690934793/doors_txfs04/thexfiles_s04e01_herrenvolk_rwgoodwin_1996_03.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690934696/doors_txfs04/thexfiles_s04e01_herrenvolk_rwgoodwin_1996_12.webm',
@@ -1763,8 +1702,6 @@ var doors_txfs04 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1696267965/doors_txfs04/thexfiles_s04e24_gethsemene_rwgoodwin_08.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691061086/doors_txfs04/thexfiles_s04e24_gethsemene_rwgoodwin_1997_02.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691061221/doors_txfs04/thexfiles_s04e24_gethsemene_rwgoodwin_1997_05.webm',
-]
-var doors_txfs05 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1691230760/doors_txfs05/thexfiles_s05e01_redux_rwgoodwin_1997_04.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691230875/doors_txfs05/thexfiles_s05e01_redux_rwgoodwin_1997_09.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691230508/doors_txfs05/thexfiles_s05e01_redux_rwgoodwin_1997_10.webm',
@@ -1825,8 +1762,6 @@ var doors_txfs05 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1691266457/doors_txfs05/thexfiles_s05e20_theend_rwgoodwin_1998_03.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691266474/doors_txfs05/thexfiles_s05e20_theend_rwgoodwin_1998_04.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691266525/doors_txfs05/thexfiles_s05e20_theend_rwgoodwin_1998_06.webm',
-]
-var doors_txfs06 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1692836754/doors_txfs06/thexfiles_s06e01_thebeginning_kimmanners_1998_09.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692837215/doors_txfs06/thexfiles_s06e04_dreamland_kimmanners_1998_04.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692836940/doors_txfs06/thexfiles_s06e04_dreamland_kimmanners_1998_10.webm',
@@ -1882,8 +1817,6 @@ var doors_txfs06 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1692841508/doors_txfs06/thexfiles_s06e21_fieldtrip_kimmanners_1999_05.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692841561/doors_txfs06/thexfiles_s06e21_fieldtrip_kimmanners_1999_07.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692841746/doors_txfs06/thexfiles_s06e22_biogenesis_robbowman_1999_13.webm',
-]
-var doors_txfs07 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1692663249/doors_txfs07/thexfiles_s07e02_thesixthextinctioniiamorfati_michaelwatkins_1999_01.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691332213/doors_txfs07/thexfiles_s07e03_hungry_kimmanners_1999_05.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1691332314/doors_txfs07/thexfiles_s07e03_hungry_kimmanners_1999_09.webm',
@@ -1938,8 +1871,6 @@ var doors_txfs07 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1692663615/doors_txfs07/thexfiles_s07e20_fightclub_paulshapiro_2000_15.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692734914/doors_txfs07/thexfiles_s07e21_jesouhaite_vincegilligan_2000_01.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692735216/doors_txfs07/thexfiles_s07e22_requiem_kimmanners_2000_04.webm',
-]
-var doors_txfs08 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1692927853/doors_txfs08/thexfiles_s08e01_within_kimmanners_2000_03.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692927863/doors_txfs08/thexfiles_s08e01_within_kimmanners_2000_04.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692927986/doors_txfs08/thexfiles_s08e01_within_kimmanners_2000_08.webm',
@@ -2001,8 +1932,6 @@ var doors_txfs08 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1692966610/doors_txfs08/thexfiles_s08e21_existence_kimmanners_2001_13.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692966624/doors_txfs08/thexfiles_s08e21_existence_kimmanners_2001_14.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1692962630/doors_txfs08/thexfiles_s08e21_existence_kimmanners_2001_16.webm',
-]
-var doors_txfs09 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726137207/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_010.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184758/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_012.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184906/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_02.webm',
@@ -2079,8 +2008,6 @@ var doors_txfs09 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693190659/doors_txfs09/thexfiles_s09e19_thetruth_manners_2002_03.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693190692/doors_txfs09/thexfiles_s09e19_thetruth_manners_2002_04.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693190571/doors_txfs09/thexfiles_s09e19_thetruth_manners_2002_29.webm',
-]
-var doors_txfs10 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706155634/doors_txfs10/thexfiles_s10e01_chriscarter_mystruggle_2016_5.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706155648/doors_txfs10/thexfiles_s10e01_chriscarter_mystruggle_2016_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706155804/doors_txfs10/thexfiles_s10e02_jameswong_foundersmutation_2016_1.webm',
@@ -2115,8 +2042,6 @@ var doors_txfs10 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706156625/doors_txfs10/thexfiles_s10e06_chriscarter_mystruggleii_2016_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706156652/doors_txfs10/thexfiles_s10e06_chriscarter_mystruggleii_2016_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706156657/doors_txfs10/thexfiles_s10e06_chriscarter_mystruggleii_2016_9.webm',
-]
-var doors_txfs11 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706214197/doors_txfs11/thexfiles_s11e01_chriscarter_mystruggleiii_2018_3.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706214213/doors_txfs11/thexfiles_s11e01_chriscarter_mystruggleiii_2018_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1706214220/doors_txfs11/thexfiles_s11e01_chriscarter_mystruggleiii_2018_5.webm',
