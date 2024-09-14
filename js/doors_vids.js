@@ -1409,6 +1409,10 @@ var doors_continuums01 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726271199/doors_continuums01/continuum_s01e03_davidfrazee_wastingtime_2012_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726271209/doors_continuums01/continuum_s01e03_davidfrazee_wastingtime_2012_7.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726271213/doors_continuums01/continuum_s01e03_davidfrazee_wastingtime_2012_8.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726271242/doors_continuums01/continuum_s01e03_davidfrazee_wastingtime_2012_9.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726320179/doors_continuums01/continuum_s01e04_michaelrohl_amatteroftime_2012_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726320219/doors_continuums01/continuum_s01e04_michaelrohl_amatteroftime_2012_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726320233/doors_continuums01/continuum_s01e04_michaelrohl_amatteroftime_2012_3.webm',
 ]
 var doors_ds9 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702690392/doors_ds9/startrekdeepspacenine_s03e26_alexandersinger_theadversary_1995_8.webm',
