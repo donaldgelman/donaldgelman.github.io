@@ -1449,6 +1449,25 @@ var doors_continuums01 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726774570/doors_continuums01/continuum_s01e10_patrickwilliams_endtime_2012_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1726774595/doors_continuums01/continuum_s01e10_patrickwilliams_endtime_2012_7.webm',
 ]
+var doors_continuums02 = [
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726947059/doors_continuums02/continuum_s02e01_patwilliams_secondchances_2013_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726947102/doors_continuums02/continuum_s02e01_patwilliams_secondchances_2013_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726947139/doors_continuums02/continuum_s02e01_patwilliams_secondchances_2013_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726947176/doors_continuums02/continuum_s02e01_patwilliams_secondchances_2013_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726947228/doors_continuums02/continuum_s02e01_patwilliams_secondchances_2013_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726947236/doors_continuums02/continuum_s02e01_patwilliams_secondchances_2013_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726947262/doors_continuums02/continuum_s02e01_patwilliams_secondchances_2013_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726947294/doors_continuums02/continuum_s02e01_patwilliams_secondchances_2013_8.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726947469/doors_continuums02/continuum_s02e02_patwilliams_splitsecond_2013_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726949338/doors_continuums02/continuum_s02e03_williamwaring_secondthoughts_2013_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726949361/doors_continuums02/continuum_s02e03_williamwaring_secondthoughts_2013_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726949386/doors_continuums02/continuum_s02e03_williamwaring_secondthoughts_2013_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726949405/doors_continuums02/continuum_s02e03_williamwaring_secondthoughts_2013_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726949420/doors_continuums02/continuum_s02e03_williamwaring_secondthoughts_2013_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726949442/doors_continuums02/continuum_s02e03_williamwaring_secondthoughts_2013_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726949462/doors_continuums02/continuum_s02e03_williamwaring_secondthoughts_2013_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726949484/doors_continuums02/continuum_s02e03_williamwaring_secondthoughts_2013_8.webm',
+]
 var doors_ds9 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702690392/doors_ds9/startrekdeepspacenine_s03e26_alexandersinger_theadversary_1995_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702690380/doors_ds9/startrekdeepspacenine_s03e26_alexandersinger_theadversary_1995_7.webm',
