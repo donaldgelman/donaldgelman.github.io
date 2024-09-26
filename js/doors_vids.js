@@ -1477,6 +1477,13 @@ var doors_continuums02 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1727222460/doors_continuums02/continuum_s02e04_williamwaring_secondskin_2013_6.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1727222481/doors_continuums02/continuum_s02e04_williamwaring_secondskin_2013_7.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1727222502/doors_continuums02/continuum_s02e04_williamwaring_secondskin_2013_8.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727222505/doors_continuums02/continuum_s02e04_williamwaring_secondskin_2013_9.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727311642/doors_continuums02/continuum_s02e05_patwilliams_secondopinion_2013_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727311669/doors_continuums02/continuum_s02e05_patwilliams_secondopinion_2013_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727311695/doors_continuums02/continuum_s02e05_patwilliams_secondopinion_2013_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727311709/doors_continuums02/continuum_s02e05_patwilliams_secondopinion_2013_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727311733/doors_continuums02/continuum_s02e05_patwilliams_secondopinion_2013_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727311764/doors_continuums02/continuum_s02e05_patwilliams_secondopinion_2013_6.webm',
 ]
 var doors_ds9 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702690392/doors_ds9/startrekdeepspacenine_s03e26_alexandersinger_theadversary_1995_8.webm',
@@ -7583,7 +7590,7 @@ var doors_txfs08 = [
 ]
 var doors_txfs09 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184889/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_01.webm',
-'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184707/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_010.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1726137207/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_010.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184740/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_011.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693184758/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_012.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1724474993/doors_txfs09/thexfiles_s09e01_nothingimportanthappenedtoday_manners_2001_013.webm',
@@ -7737,7 +7744,6 @@ var doors_txfs09 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693188734/doors_txfs09/thexfiles_s09e15_jumptheshark_bole_2002_014.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693188757/doors_txfs09/thexfiles_s09e15_jumptheshark_bole_2002_015.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693188768/doors_txfs09/thexfiles_s09e15_jumptheshark_bole_2002_016.webm',
-'https://res.cloudinary.com/dsstucmpc/video/upload/v1693188790/doors_txfs09/thexfiles_s09e15_jumptheshark_bole_2002_017.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693188811/doors_txfs09/thexfiles_s09e15_jumptheshark_bole_2002_018.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693188849/doors_txfs09/thexfiles_s09e15_jumptheshark_bole_2002_02.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1693188874/doors_txfs09/thexfiles_s09e15_jumptheshark_bole_2002_03.webm',
