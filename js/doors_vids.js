@@ -1484,6 +1484,15 @@ var doors_continuums02 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1727311709/doors_continuums02/continuum_s02e05_patwilliams_secondopinion_2013_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1727311733/doors_continuums02/continuum_s02e05_patwilliams_secondopinion_2013_5.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1727311764/doors_continuums02/continuum_s02e05_patwilliams_secondopinion_2013_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727311787/doors_continuums02/continuum_s02e05_patwilliams_secondopinion_2013_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727404711/doors_continuums02/continuum_s02e06_patwilliams_secondtruths_2013_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727404716/doors_continuums02/continuum_s02e06_patwilliams_secondtruths_2013_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727404721/doors_continuums02/continuum_s02e06_patwilliams_secondtruths_2013_3.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727404724/doors_continuums02/continuum_s02e06_patwilliams_secondtruths_2013_4.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727404728/doors_continuums02/continuum_s02e06_patwilliams_secondtruths_2013_5.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727404733/doors_continuums02/continuum_s02e06_patwilliams_secondtruths_2013_6.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727404735/doors_continuums02/continuum_s02e06_patwilliams_secondtruths_2013_7.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1727404737/doors_continuums02/continuum_s02e06_patwilliams_secondtruths_2013_8.webm',
 ]
 var doors_ds9 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702690392/doors_ds9/startrekdeepspacenine_s03e26_alexandersinger_theadversary_1995_8.webm',
