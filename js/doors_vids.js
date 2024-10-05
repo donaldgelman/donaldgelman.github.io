@@ -1545,6 +1545,11 @@ var doors_continuums02 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1728008485/doors_continuums02/continuum_s02e13_patwilliams_secondtime_2013_4.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1728008490/doors_continuums02/continuum_s02e13_patwilliams_secondtime_2013_5.webm',
 ]
+var doors_continuums03 = [
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1728090427/doors_continuums03/continuum_s03e01_patwilliams_minutebyminute_2014_1.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1728090431/doors_continuums03/continuum_s03e01_patwilliams_minutebyminute_2014_2.webm',
+'https://res.cloudinary.com/dsstucmpc/video/upload/v1728090435/doors_continuums03/continuum_s03e01_patwilliams_minutebyminute_2014_3.webm',
+]
 var doors_ds9 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702690392/doors_ds9/startrekdeepspacenine_s03e26_alexandersinger_theadversary_1995_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702690380/doors_ds9/startrekdeepspacenine_s03e26_alexandersinger_theadversary_1995_7.webm',
