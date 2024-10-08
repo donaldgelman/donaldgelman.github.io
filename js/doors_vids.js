@@ -1613,6 +1613,20 @@ var doors_continuums03 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1728383594/doors_continuums03/continuum_s03e12_simonbarry_thedyingminutes_2014_9.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1728383632/doors_continuums03/continuum_s03e13_williamwaring_lastminute_2014_1.webm',
 ]
+var doors_continuums04 = [
+'https://res.cloudinary.com/roedecker/video/upload/v1728400343/doors_continuums04/continuum_s04e01_patrickwilliams_losthours_2015_1.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1728400331/doors_continuums04/continuum_s04e01_patrickwilliams_losthours_2015_10.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1728400333/doors_continuums04/continuum_s04e01_patrickwilliams_losthours_2015_11.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1728400335/doors_continuums04/continuum_s04e01_patrickwilliams_losthours_2015_12.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1728400339/doors_continuums04/continuum_s04e01_patrickwilliams_losthours_2015_13.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1728400347/doors_continuums04/continuum_s04e01_patrickwilliams_losthours_2015_2.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1728400351/doors_continuums04/continuum_s04e01_patrickwilliams_losthours_2015_3.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1728400355/doors_continuums04/continuum_s04e01_patrickwilliams_losthours_2015_4.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1728400357/doors_continuums04/continuum_s04e01_patrickwilliams_losthours_2015_5.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1728400361/doors_continuums04/continuum_s04e01_patrickwilliams_losthours_2015_6.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1728400364/doors_continuums04/continuum_s04e01_patrickwilliams_losthours_2015_7.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1728400368/doors_continuums04/continuum_s04e01_patrickwilliams_losthours_2015_8.webm',
+]
 var doors_ds9 = [
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702690392/doors_ds9/startrekdeepspacenine_s03e26_alexandersinger_theadversary_1995_8.webm',
 'https://res.cloudinary.com/dsstucmpc/video/upload/v1702690380/doors_ds9/startrekdeepspacenine_s03e26_alexandersinger_theadversary_1995_7.webm',
