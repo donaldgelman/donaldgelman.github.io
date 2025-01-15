@@ -24,7 +24,6 @@ var images = [
 'https://res.cloudinary.com/roedecker/image/upload/v1555254096/myphotos/IMG_0518.jpg',
 'https://res.cloudinary.com/roedecker/image/upload/v1555254106/myphotos/IMG_0520.jpg',
 'https://res.cloudinary.com/roedecker/image/upload/v1555254120/myphotos/IMG_0524.jpg',
-'https://res.cloudinary.com/roedecker/image/upload/v1555254964/myphotos/IMG_0527.jpg',
 'https://res.cloudinary.com/roedecker/image/upload/v1555254141/myphotos/IMG_0529.jpg',
 'https://res.cloudinary.com/roedecker/image/upload/v1552161709/myphotos/IMG_1729.jpg',
 'https://res.cloudinary.com/roedecker/image/upload/v1552161762/myphotos/IMG_1737.jpg',
