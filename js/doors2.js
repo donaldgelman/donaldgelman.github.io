@@ -1,4 +1,4 @@
-var vids = doors_cinema.concat(doors_cinema2, doors_cinema3, doors_tpfwwm, doors_txfftf, doors_txfiwtb);
+//var vids = doors_cinema.concat(doors_cinema2, doors_cinema3, doors_tpfwwm, doors_txfftf, doors_txfiwtb);
 
 //function playpause() {
 //	if (myVideo.paused) {
