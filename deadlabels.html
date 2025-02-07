@@ -54,6 +54,9 @@
       right: 20px;
       cursor: pointer;
     }
+    labelInfo {
+      color: white;
+    }
     ul {
       color: white;
       list-style-type: none;
@@ -143,16 +146,19 @@
     <audio id="audioPlayer" width="800" height="200" style="background-color: black;" controls>
       <source id="audioSource" type="audio/mp3"/>
     </audio>
-    <ul id="info">
+    <p id="labelInfo"></p>
+    <ul id="info">  
       <li><a href="" target="_blank">Open mix in new tab or right click to save</a></li>
+      <!--<li><a color="white">Featured Tracks:</a></li>-->
     </ul>
+    <p>Featured Tracks:</p>
     <ul id="playlistContainer">
       <!-- Playlist items will be injected here -->
     </ul>
   </div>
 </div>
 
-<script src="/js/deadlabels.js"></script>
+<script src="deadlabels.js"></script>
 
 </body>
 </html>

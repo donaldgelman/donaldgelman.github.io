@@ -1,6 +1,8 @@
 // Define a mapping of index to audio URL and playlist HTML
 const modalData = [
-  {audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Ambivalence.mp3", playlistHTML: `
+  {audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Ambivalence.mp3", 
+   labelInfo: "Ambivalence (Brussels, 1999-2011)",
+   playlistHTML: `
       <li><a href="https://www.discogs.com/release/859209-Claire-Goldfarb-Or-Propos">Claire Goldfarb - Miroir renversé</a></li>
       <li><a href="https://www.discogs.com/release/1202993-Usk%C3%A9-Orchestra-Moli-Herzog-Remixes">Mondii - Watercolour Park</a></li>
       <li><a href="https://www.discogs.com/release/230815-The-Forsaken-Odes-Conglomerate-Tonal-Tutorial">The Forsaken Odes Conglomerate - Shambolic Decency (Hushed Up)</a></li>
@@ -25,7 +27,9 @@ const modalData = [
       <li><a href="https://www.discogs.com/master/18441-Passarani-Unspeakable-Future-Outbreaks">Passarani - Nul</a></li>
     `
   },
-  {audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Elfcut.mp3", playlistHTML: `
+  {audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Elfcut.mp3", 
+   labelInfo: "Elf Cut (Brussels, 1997-2000)",
+   playlistHTML: `
   <li><a href="https://www.discogs.com/master/140173-Rawakari-Ikebana">Rawakari - Wind City</a></l>
 	<li><a href="https://www.discogs.com/master/140183-Fat-Masonics-Lodge">Fat Masonics - Throw Him Out The Window</a></l>
 	<li><a href="https://www.discogs.com/release/66904-The-Syncopated-Elevators-Legacy-Apostasy">The Syncopated Elevators Legacy - TV Wash</a></l>
@@ -48,6 +52,7 @@ const modalData = [
 	},
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Immune.mp3",
+    labelInfo: "Immune (Chicago, 2007-2017)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/master/786874-Panabrite-Disintegrating-Landscape">Panabrite - Disintegrating Landscape</a></li>
       <li><a href="https://www.discogs.com/master/407337-Cleared-Breaking-Day">Cleared - No Path To Claim</a></li>
@@ -67,6 +72,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Merck.mp3",
+    labelInfo: "Merck (Miami, 2000-2007)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/master/497214-Esem-Serial-Human">Esem - Swift Urban Departure From What Was Once an Innocent Soul</a></li>
       <li><a href="https://www.discogs.com/master/325913-Helios-Unomia">Helios - West Orange</a></li>
@@ -88,6 +94,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/QDKMedia.mp3",
+    labelInfo: "Q.D.K. Media (Bonn, 1989-2013)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/1068901-Fetus-Productions-Intensive-Care-Unit">Fetus Productions - Drip</a></li>
       <li><a href="https://www.discogs.com/release/95010-Various-Electronic-Toys-2-A-Retrospective-Of-Early-Synthesizer-Music">Bruce Haack - Party Machine</a></li>
@@ -116,6 +123,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/ucover.mp3",
+    labelInfo: "U-Cover (Geel, 1999-2013)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/322913-Ontayso-Sense-Tim-Koch-Where-Have-You-Been-What-Have-You-Done-And-Why">Ontayso - Walk Your Way</a></li>
 <li><a href="https://www.discogs.com/release/122056-Ontayso-Re-Mixed-Re-Worked-Re-Constructed-And-Re-Invented-Part-One">Ontayso - [untitled] (Kettel Remix)</a></li>
@@ -137,6 +145,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/YHRTapes.mp3",
+    labelInfo: "YHR Tapes (Brighton, 1980-1983)",
     playlistHTML: `
      <li><a href="https://www.discogs.com/release/5124940-Cin%C3%A9ma-V%C3%A9rit%C3%A9-Rhythmus-Und-Ritual">Cinéma Vérité - Winterkollektion 41-42</a></li>
 <li><a href="https://www.discogs.com/release/1340983-Andrew-Cox-Hydra">Andrew Cox - And The Birds Began To Sing</a></li>
@@ -151,6 +160,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/AMission.mp3",
+    labelInfo: "A-Mission (Leeds, 1983-1985)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/294038-O-Yuki-Conjugate-Scene-In-Mirage">O Yuki Conjugate - Odomankoma</a></li>
       <li><a href="https://www.discogs.com/release/426169-Metgumbnerbone-Ligeliahorn">Metgumbnerbone - Untitled</a></li>
@@ -164,6 +174,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/EnglishMuffinRecords.mp3",
+    labelInfo: "English Muffin Records (New York, 1999-2002)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/47454">Accelera Deck - Loop10</a></li>
       <li><a href="https://www.discogs.com/release/13024821">Lucky Dragons - Untitled</a></li>
@@ -182,6 +193,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Beaumonde.mp3",
+    labelInfo: "Beau Monde (London, 1995-2001)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/master/786933-Tom-Silvester-Spin-Monkey">Tom Silvester - Monkey</a></li>
       <li><a href="https://www.discogs.com/release/72569-Ultra-Modern-Art-Absolute-Before-Obsolete">Ultra Modern Art - The Day The Angels Came</a></li>
@@ -200,6 +212,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Frogman.mp3",
+    labelInfo: "Frogman Records (Tokyo, 1994-2005)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/113703-Quadra-Sketch-From-A-Moment">Quadra - Spell of Rain</a></li>
       <li><a href="https://www.discogs.com/release/1079348-Hirofumi-Goto-Geo-Rhythm">Hirofumi Goto - OKOSO Zukin Type-B</a></li>
@@ -218,6 +231,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Japo.mp3",
+    labelInfo: "Japo Records (Munich, 1970-1985)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/master/1390699-Christoph-Anders-Heiner-Goebbels-Alfred-Harth-Paul-Lovens-Rolf-Riehm-Annemarie-Roelofs-Es-Herrscht-U">Alfred Harth - Burrough's Haiku</a></li>
       <li><a href="https://www.discogs.com/release/1226852-Jack-DeJohnette-Pierre-Favre-Fredy-Studer-Dom-Um-Romao-David-Friedman-George-Gruntz-Percussion-Profi">George Gruntz - Movement 1</a></li>
@@ -237,6 +251,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/NewAlbion.mp3",
+    labelInfo: "New Albion (San Francisco, 1984-2012)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/master/2503189-Various-Nordisk-Sang-Music-Of-Norway">Eivind Groven - Tveitanvise</a></li>
       <li><a href="https://www.discogs.com/master/772337-Various-Austral-Voices">Ross Bolleter - Nallan Void</a></li>
@@ -259,6 +274,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/RecycleOrDie.mp3",
+    labelInfo: "Recycle Or Die (Offenbach Am Main, 1992-1997)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/60986-Various-Backlash-The-Recycle-Or-Die-Compilation">#9 Dream - La Lune De Miel (Kraut as Kraut Can Remix)</a></li>
       <li><a href="https://www.discogs.com/master/47269-Stevie-Be-Zet-Archaic-Modulation">Stevie Be Zet - African Marche</a></li>
@@ -270,6 +286,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/VerticalForm.mp3",
+    labelInfo: "Vertical Form (London, 1999-2004)",
     playlistHTML: `
      <li><a href="https://www.discogs.com/release/2779147-Rechenzentrum-Nelson">Rechenzentrum - Nelson Reprise</a></li>
 <li><a href="https://www.discogs.com/release/34637-Kit-Clayton-Lateral-Forces-Surface-Fault">Kit Clayton - [untitled]</a></li>
@@ -289,6 +306,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/ZeroGravity.mp3",
+    labelInfo: "Zero Gravity (Tokyo, 1996-2017)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/283693-Toshimaru-Nakamura-No-Input-Mixing-Board">Toshimaru Nakamura - Nimb No. 2</a></li>
       <li><a href="https://www.discogs.com/release/322554-Trio-Rakant-Kokorosususu">Trio Rakant - Pure Silence Space (Unruffled)</a></li>
@@ -305,6 +323,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Baroc.mp3",
+    labelInfo: "BAROC (Cologne, 2014-2016)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/6359467-Unfinished-Portraits-Untitled">Unfinished Portraits - Untitled</a></li>
       <li><a href="https://www.discogs.com/release/6359467-Unfinished-Portraits-Untitled">Unfinished Portraits - Untitled</a></li>
@@ -320,6 +339,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Clear.mp3",
+    labelInfo: "Clear (London, 1994-1998)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/master/155945-The-Lithium-Project-Lithium-Project">The Lithium Project - Passo Fundo</a></li>
       <li><a href="https://www.discogs.com/release/5328-Reflection-The-Errornormous-World">Reflection - Cold Wind In The Bright Sun</a></li>
@@ -337,6 +357,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/GneissThings.mp3",
+    labelInfo: "Gneiss Things (Ohio, 2007-2011)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/1357170-Emeralds-Live">Emeralds - 032208 Cleveland OH</a></li>
       <li><a href="https://www.discogs.com/release/1332812-Steve-Hauschildt-The-Summit">Steve Hauschildt - Precious Afterthoughts</a></li>
@@ -351,6 +372,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/K2O.mp3",
+    labelInfo: "K2 O Records (Berlin, 1996-2003)",
     playlistHTML: `
      <li><a href="https://www.discogs.com/release/650516-Lazyfish-Alexandroid-OS">Alexandroid - Swim</a></li>
 <li><a href="https://www.discogs.com/release/79839-Multicast-Further-Obliq-Perspectives">Crix Madine - Crix Madine's Theme</a></li>
@@ -370,6 +392,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/OrthlorngMusork.mp3",
+    labelInfo: "Orthlorng Musork (San Francisco, 1999-2004)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/256594-Stephan-Mathieu-Ekkehard-Ehlers-Heroin-Remixes">Stephan Mathieu & Ekkehard Ehlers - Herz</a></li>
       <li><a href="https://www.discogs.com/release/231285-Alejandra-And-Aeron-Bousha-Blue-Blazes">Alejandra and Aeron - Learning From Mistakes, Good (not fun)</a></li>
@@ -391,6 +414,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/SendingOrbs.mp3",
+    labelInfo: "Sending Orbs (Groningen, 2005-2013)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/master/27300-Yagya-Rigning">Yagya - Rigning Einn</a></li>
       <li><a href="https://www.discogs.com/master/278027-Secede-Tryshasla">Secede - Kingdom of Hearts</a></li>
@@ -408,6 +432,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/WormInterface.mp3",
+    labelInfo: "Worm Interface (London, 1994-2004)",
     playlistHTML: `
      <li><a href="https://www.discogs.com/release/278-Freeform-Heterarchy">Freeform - Culk</a></li>
 <li><a href="https://www.discogs.com/release/292-Various-Alt-Frequencies">Dunderhead - Doditsu</a></li>
@@ -425,6 +450,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Charhizma.mp3",
+    labelInfo: "charhizma (Vienna, 1999-2005)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/47382-The-Beige-Oscillator-DJ-Attach%C3%A9-Waiting-For-Wood">The Beige Oscillator & DJ Attaché - Good Solid Beat</a></li>
       <li><a href="https://www.discogs.com/release/1438760-Shabotinski-Bypass-Kill">Shabotinski - Rueckenwind</a></li>
@@ -444,6 +470,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Defocus.mp3",
+    labelInfo: "DeFocus (Guildford, 2000-2002)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/2990-CiM-Reference">CiM - view</a></li>
       <li><a href="https://www.discogs.com/release/290-Lackluster-R-U-Oho">Lackluster - Meanwhile (Rm Xb Yb Rothomstates)</a></li>
@@ -464,6 +491,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Hefty.mp3",
+    labelInfo: "Hefty Records (Chicago, 1994-2011)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/889544-radicalfashion-Odori">Radicalfashion - Opening</a></li>
       <li><a href="https://www.discogs.com/release/5909719-Solo-Andata-Fyris-Swan">Solo Andata - Ballet of Hands</a></li>
@@ -486,6 +514,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Ladomat2000.mp3",
+    labelInfo: "Ladomat 2000 (Hamburg, 1994-2006)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/314635-Workshop-Meiguiweisheng-Xiang">Workshop - Joina Ina</a></li>
 <li><a href="https://www.discogs.com/release/62963-One-In-A-Billion-Soulfood-EP">One in a Billion - See the Light</a></li>
@@ -503,6 +532,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/PsychonavigationRecords.mp3",
+    labelInfo: "Psychonavigation Records (Dublin, 2000-2018)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/2799343-Obsil-Vicino">Obsil - Pendii</a></li>
       <li><a href="https://www.discogs.com/master/644929-Off-Land-Tidewater-Pulse">Off Land - Storm Passes</a></li>
@@ -522,6 +552,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/TransonicRecords.mp3",
+    labelInfo: "Transonic Records (Tokyo, 1994-2014)",
     playlistHTML: `
      <li><a href="https://www.discogs.com/release/7036039-ARM-Armedphone-Tour">Arm - 01</a></li>
 <li><a href="https://www.discogs.com/release/7036039-ARM-Armedphone-Tour">Arm - 02</a></li>
@@ -542,6 +573,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/XOR.mp3",
+    labelInfo: "X-OR (The Hague, 1990-2013)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/4368017-Wiek-Hijmans-One-Hour">Wiek Hijmans - One Hour (Part II)</a></li>
 <li><a href="https://www.discogs.com/release/4368017-Wiek-Hijmans-One-Hour">Wiek Hijmans - One Hour (Part III)</a></li>
@@ -556,6 +588,7 @@ const modalData = [
   },
   {
     audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Din.mp3",
+    labelInfo: "DIN (Berlin, 1996-2002)",
     playlistHTML: `
       <li><a href="https://www.discogs.com/release/1980439">Arovane - Scapen Te</a></li>
       <li><a href="https://www.discogs.com/release/1678110">Log - Out 2</a></li>
@@ -578,6 +611,7 @@ function openModal(index) {
   var audioSource = document.getElementById("audioSource");
   var playlistContainer = document.getElementById("playlistContainer");
   var infoLink = document.querySelector("#info a");
+  var labelInfo = document.getElementById("labelInfo");
   
   // Ensure we have data for the given index
   if (modalData[index]) {
@@ -585,7 +619,10 @@ function openModal(index) {
     playlistContainer.innerHTML = modalData[index].playlistHTML;
     document.getElementById('audioPlayer').load();
     infoLink.href = modalData[index].audioUrl;
-   
+    labelInfo.innerHTML = modalData[index].labelInfo;
+    document.querySelectorAll('.modal a').forEach(link => {
+      link.setAttribute('target', '_blank');
+});
     // Position the modal based on the mouse click
     var xPos = event.clientX;
     var yPos = event.clientY;
@@ -599,7 +636,11 @@ function openModal(index) {
     console.error("No data available for index:", index);
   }
 }
-
+document.querySelectorAll('.modal a').forEach(link => {
+  if (link.href.includes('discogs.com')) {
+    link.setAttribute('target', '_blank');
+  }
+});
 // Function to handle clicks outside modal
 function closeModalOutside(event) {
   var modal = document.getElementById("audioModal");
