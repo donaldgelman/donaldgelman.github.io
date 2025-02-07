@@ -35,11 +35,12 @@
       top: 0;
       width: 25%;
       height: 25%;
-      background-color: rgba(0,0,0,0.7); /* Semi-transparent background */
+      /*background-color: rgba(255,255,255, 0.7); /* Semi-transparent background */
       justify-content: center;
       align-items: center;
     }
     .modal-content {
+      position: relative;
       background-color: rgba(255,255,255,0.8);
       padding: 20px;
       border-radius: 8px;
@@ -47,15 +48,18 @@
       width: 90%;
     }
     .close {
-      color: white;
+      color: black;
       font-size: 30px;
       position: absolute;
       top: 10px;
-      right: 20px;
+      right: 10px;
       cursor: pointer;
     }
     labelInfo {
       color: white;
+    }  
+    audioPlayer {
+      background-color: rgba(255,255,255,0.8);    
     }
     ul {
       color: white;
@@ -143,13 +147,12 @@
 <div id="audioModal" class="modal">
   <div class="modal-content">
     <span class="close">×</span>
-    <audio id="audioPlayer" width="800" height="200" style="background-color: black;" controls>
+    <audio id="audioPlayer" width="800" height="200" controls>
       <source id="audioSource" type="audio/mp3"/>
     </audio>
-    <p id="labelInfo"></p>
+    <p id="labelInfo" style="font-size: 16px"></p>
     <ul id="info">  
       <li><a href="" target="_blank">Open mix in new tab or right click to save</a></li>
-      <!--<li><a color="white">Featured Tracks:</a></li>-->
     </ul>
     <p>Featured Tracks:</p>
     <ul id="playlistContainer">
@@ -158,7 +161,7 @@
   </div>
 </div>
 
-<script src="/js/deadlabels.js"></script>
+<script src="js/deadlabels.js"></script>
 
 </body>
 </html>
