@@ -9,6 +9,28 @@
       background-color: black;
       margin: 0;
       font-family: Arial;
+      padding-top: 80px; /* Make room for fixed player */
+    }
+    /* Fixed Player styles */
+    #fixedPlayer {
+      position: fixed;
+      top: 0;
+      left: 25px;
+      width: 90%;
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 10px;
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      gap: 20px;
+    }
+    #fixedPlayer audio {
+      flex-grow: 1;
+    }
+    #nowPlaying {
+      color: white;
+      margin: 0;
+      font-size: 14px;
     }
     .row {
       display: flex;
@@ -25,8 +47,6 @@
       vertical-align: middle;
       width: 100%;
     }
-
-    /* Modal styles */
     .modal {
       display: none;
       position: absolute;
@@ -35,7 +55,6 @@
       top: 0;
       width: 25%;
       height: 25%;
-      /*background-color: rgba(255,255,255, 0.7); /* Semi-transparent background */
       justify-content: center;
       align-items: center;
     }
@@ -55,14 +74,24 @@
       right: 10px;
       cursor: pointer;
     }
-    labelInfo {
+    .play-button {
+      background-color: #4CAF50;
+      border: none;
       color: white;
-    }  
-    audioPlayer {
-      background-color: rgba(255,255,255,0.8);    
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .play-button.playing {
+      background-color: #f44336;
     }
     ul {
-      color: white;
+      color: black;
       list-style-type: none;
       padding: 0;
     }
@@ -79,13 +108,20 @@
   </style>
 </head>
 <body>
-
 <!-- Header -->
 <div class="header">
-  <a href="/" style="font-size: 24px;">/</a>
+  <a href="/" style="font-size: 24px; color: white; position: fixed; top: 10px; left: 10px; z-index: 1001;">/</a>
 </div>
+  <!-- Fixed Audio Player -->
+  <div id="fixedPlayer">
+    <p id="nowPlaying"></p>
+    <audio id="audioPlayer" controls>
+      <source id="audioSource" type="audio/mp3"/>
+    </audio>
+  </div>
 
-<!-- Photo Grid -->
+  <!-- Your existing grid code here -->
+ <!-- Photo Grid -->
 <div class="row">
   <div class="column">
     <img src="https://res.cloudinary.com/roedecker/image/upload/v1677233509/gelman/deadlabels/FrontA.jpg" onclick="openModal(0)">
@@ -143,27 +179,23 @@
     <img src="https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/front_squares/Front_D2.png" onclick="openModal(30)">
   </div>
 </div>
-
-<!-- Modal for Audio Player and Playlist -->
-<div id="audioModal" class="modal">
-  <div class="modal-content">
-    <span class="close">×</span>
-    <audio id="audioPlayer" width="800" height="200" controls>
-      <source id="audioSource" type="audio/mp3"/>
-    </audio>
-    <p id="labelInfo" style="font-size: 16px"></p>
-    <ul id="info">  
-      <li><a href="" target="_blank">Open mix in new tab or right click to save</a></li>
-    </ul>
-    <p>Featured Tracks:</p>
-    <ul id="playlistContainer">
-      <!-- Playlist items will be injected here -->
-    </ul>
+ 
+  <!-- Modified Modal -->
+  <div id="audioModal" class="modal">
+    <div class="modal-content">
+      <span class="close">×</span>
+      <button id="playButton" class="play-button">Play</button>
+      <p id="labelInfo" style="font-size: 16px"></p>
+      <ul id="info">  
+        <li><a href="" target="_blank">Open mix in new tab or right click to save</a></li>
+      </ul>
+      <p>Featured Tracks:</p>
+      <ul id="playlistContainer">
+        <!-- Playlist items will be injected here -->
+      </ul>
+    </div>
   </div>
-</div>
-
-<script src="js/deadlabels_modal.js"></script>
-<script src="js/modalData.js"></script>
-
+  <script src="js/deadlabels_modal.js"></script>
+  <script src="js/modalData.js"></script>
 </body>
 </html>
