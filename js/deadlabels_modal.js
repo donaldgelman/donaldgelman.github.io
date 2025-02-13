@@ -1,65 +1,3 @@
-// Define a mapping of index to audio URL and playlist HTML
-
-/*    let currentPlayingIndex = null;
-    const audioPlayer = document.getElementById('audioPlayer');
-    const nowPlaying = document.getElementById('nowPlaying');
-
-    function openModal(index) {
-      const modal = document.getElementById("audioModal");
-      const playButton = document.getElementById("playButton");
-      const playlistContainer = document.getElementById("playlistContainer");
-      const infoLink = document.querySelector("#info a");
-      const labelInfo = document.getElementById("labelInfo");
-      
-      if (modalData[index]) {
-        // Update modal content
-        playlistContainer.innerHTML = modalData[index].playlistHTML;
-        infoLink.href = modalData[index].audioUrl;
-        labelInfo.innerHTML = modalData[index].labelInfo;
-        
-        // Update play button state
-        playButton.classList.toggle('playing', currentPlayingIndex === index);
-        playButton.textContent = currentPlayingIndex === index && !audioPlayer.paused ? 'Pause' : 'Play';
-        
-        // Store the current index for the play button
-        playButton.dataset.index = index;
-        
-        // Position and show modal
-        const xPos = event.clientX;
-        const yPos = event.clientY;
-        modal.style.left = xPos + 'px';
-        modal.style.top = yPos + 'px';
-        modal.style.display = "block";
-        
-        document.addEventListener('click', closeModalOutside);
-      }
-    }
-
-    // Play button click handler
-    document.getElementById('playButton').addEventListener('click', function() {
-      const index = parseInt(this.dataset.index);
-      
-      if (currentPlayingIndex === index) {
-        // Toggle play/pause for current track
-        if (audioPlayer.paused) {
-          audioPlayer.play();
-          this.textContent = 'Pause';
-          this.classList.add('playing');
-        } else {
-          audioPlayer.pause();
-          this.textContent = 'Play';
-          this.classList.remove('playing');
-        }
-      } else {
-        // Play new track
-        audioPlayer.src = modalData[index].audioUrl;
-        audioPlayer.play();
-        currentPlayingIndex = index;
-        this.textContent = 'Pause';
-        this.classList.add('playing');
-        nowPlaying.textContent = modalData[index].labelInfo;
-      }
-    });*/
 let currentPlayingIndex = null;
     const audioPlayer = document.getElementById('audioPlayer');
     const nowPlaying = document.getElementById('nowPlaying');
@@ -88,7 +26,7 @@ let currentPlayingIndex = null;
 
         // Update play button state
         playButton.classList.toggle('playing', currentPlayingIndex === index);
-        playButton.textContent = currentPlayingIndex === index && !audioPlayer.paused ? 'Pause' : 'Play';
+        playButton.textContent = currentPlayingIndex === index && !audioPlayer.paused ? '||' : '▶';
 
         // Store the current index for the play button
         playButton.dataset.index = index;
@@ -120,11 +58,11 @@ let currentPlayingIndex = null;
         // Toggle play/pause for current track
         if (audioPlayer.paused) {
           audioPlayer.play();
-          this.textContent = 'Pause';
+          this.textContent = '▐▐';
           this.classList.add('playing');
         } else {
           audioPlayer.pause();
-          this.textContent = 'Play';
+          this.textContent = '▶';
           this.classList.remove('playing');
         }
       } else {
@@ -132,7 +70,7 @@ let currentPlayingIndex = null;
         audioPlayer.src = modalData[index].audioUrl;
         audioPlayer.play();
         currentPlayingIndex = index;
-        this.textContent = 'Pause';
+        this.textContent = '▐▐';
         this.classList.add('playing');
         nowPlaying.textContent = modalData[index].labelInfo;
       }

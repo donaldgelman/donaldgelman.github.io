@@ -614,6 +614,23 @@ const modalData = [
       <li><a href="https://www.discogs.com/release/717823">Hado-Ho - Star Liner (Dub Sonic Sound System Mix)</a></li>
       <li><a href="https://www.discogs.com/release/1038646">Woodman - A Touch Of Only You Brands Dreamy Towel</a></li>
     `
+  },
+  {
+    audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Gefriem.mp3",
+    labelInfo: "Gefriem (Cologne, 1992-2000)",
+    playlistHTML: `
+    <li><a href="https://www.discogs.com/release/310537">Don't Dolby - Buchenhüll</a></li>
+    <li><a href="https://www.discogs.com/release/310470">Schlammpeitziger - Selbstgeburt Odijk</a></li>
+    <li><a href="https://www.discogs.com/release/310537">Don't Dolby - Lift</a></li>
+    <li><a href="https://www.discogs.com/release/247225">Blutsiphon - Finest Of</a></li>
+    <li><a href="https://www.discogs.com/release/247225">Blutsiphon - Flitschler</a></li>
+    <li><a href="https://www.discogs.com/release/310470">Master's Cosmic Music - The Circles Of Relax</a></li>
+    <li><a href="https://www.discogs.com/release/197148">Sack Und Blumm - Toy Grooves</a></li>
+    <li><a href="https://www.discogs.com/release/366640">Marcus Schmickler - Lupo</a></li>
+    <li><a href="https://www.discogs.com/release/310470">Schlammpeitziger - Kartoffelackerdiscoesotech</a></li>
+    <li><a href="https://www.discogs.com/release/366640">F.X. Randomiz - Dotter</a></li>
+    <li><a href="https://www.discogs.com/release/197148">Sack Und Blumm - Die Fünfte Dengelophonie</a></li>
+    `
   }
 
 ]
