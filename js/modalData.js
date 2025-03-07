@@ -631,6 +631,29 @@ const modalData = [
     <li><a href="https://www.discogs.com/release/366640">F.X. Randomiz - Dotter</a></li>
     <li><a href="https://www.discogs.com/release/197148">Sack Und Blumm - Die Fünfte Dengelophonie</a></li>
     `
+  },
+  {
+    audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/HamsterRecordsAndTapes.mp3",
+    labelInfo: "Hamster Records And Tapes (London, 1982-1989)",
+    playlistHTML: `
+    <li><a href="https://www.discogs.com/release/753026">Terry Burrows - Loop #1</a></li>
+    <li><a href="https://www.discogs.com/release/427224">Asmus Tietchens - Columbine Lunair</a></li>
+    <li><a href="https://www.discogs.com/release/396507">Asmus Tietchens & Terry Burrows - Untitled</a></li>
+    <li><a href="https://www.discogs.com/release/1715822">R. Stevie Moore - The Most Powerful Statement In History</a></li>
+    <li><a href="https://www.discogs.com/release/1715822">R. Stevie Moore - Defeating The Purpose (Live)</a></li>
+    <li><a href="https://www.discogs.com/release/1962166">The Loch Ness Monster - 2D Sex</a></li>
+    <li><a href="https://www.discogs.com/release/985873">Enski Boski - Skid Row</a></li>
+    <li><a href="https://www.discogs.com/release/427224">Controlled Bleeding - Untitled</a></li>
+    <li><a href="https://www.discogs.com/release/3327995">Jung Analysts - Here's Lucifer</a></li>
+    <li><a href="https://www.discogs.com/release/396507">Asmus Tietchens & Terry Burrows - Untitled</a></li>
+    <li><a href="https://www.discogs.com/release/908645">Berbel Nobodius - Brushwood Epitaph</a></li>
+    <li><a href="https://www.discogs.com/release/908645">Berbel Nobodius - Primeval Awakening</a></li>
+    <li><a href="https://www.discogs.com/release/3327995">Jung Analysts - Some Loops</a></li>
+    <li><a href="https://www.discogs.com/release/1962166">The Loch Ness Monster - Mind The Gap</a></li>
+    <li><a href="https://www.discogs.com/release/427224">Yoneten - Gefahrlichter Neuer Negersong</a></li>
+    <li><a href="https://www.discogs.com/release/1715822">R. Stevie Moore - Splem Jeague 3</a></li>
+    <li><a href="https://www.discogs.com/release/1715822">R. Stevie Moore - The Crystal Chandelier</a></li>
+    `
   }
 
 ]
