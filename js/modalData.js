@@ -654,6 +654,27 @@ const modalData = [
     <li><a href="https://www.discogs.com/release/1715822">R. Stevie Moore - Splem Jeague 3</a></li>
     <li><a href="https://www.discogs.com/release/1715822">R. Stevie Moore - The Crystal Chandelier</a></li>
     `
+  },
+  {
+    audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/IntransitiveRecordings.mp3",
+    labelInfo: "Intransitive Recordings (Cambridge MA, 1997-2012)",
+    playlistHTML: `
+        <li><a href="https://www.discogs.com/release/478482">Howard Stelzer & Jason Talbot - Blank</a></li>
+    <li><a href="https://www.discogs.com/release/464960">Haco / View Masters - Theremin Radio 00</a></li>
+    <li><a href="https://www.discogs.com/release/561763">JGrzinich / Seth Nehil- Pneuma</a></li>
+    <li><a href="https://www.discogs.com/release/457459">Kapotte Muziek - Enhanced Room Acoustics 4</a></li>
+    <li><a href="https://www.discogs.com/release/1345717">Nerve Net Noise - Breath</a></li>
+    <li><a href="https://www.discogs.com/release/1984171">Lethe - Untitled</a></li>
+    <li><a href="https://www.discogs.com/release/520222">Brume - Anastomose, Part 3</a></li>
+    <li><a href="https://www.discogs.com/release/3278566">C. Spencer Yeh - Drone</a></li>
+    <li><a href="https://www.discogs.com/release/105578">Gal - Lv, Nv</a></li>
+    <li><a href="https://www.discogs.com/release/457460">Roel Meelkop - Untitled</a></li>
+    <li><a href="https://www.discogs.com/release/134105">Lionel Marchetti - Trois</a></li>
+    <li><a href="https://www.discogs.com/release/105578">Gal - Tong-Hua Yie-Shi</a></li>
+    <li><a href="https://www.discogs.com/release/105578">Gal - 57A</a></li>
+    <li><a href="https://www.discogs.com/release/131520">Jim Haynes - ::</a></li>
+`
   }
+
 
 ]
