@@ -674,6 +674,29 @@ const modalData = [
     <li><a href="https://www.discogs.com/release/105578">Gal - 57A</a></li>
     <li><a href="https://www.discogs.com/release/131520">Jim Haynes - ::</a></li>
 `
+  },
+  {
+    audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/jarmusic.mp3",
+    labelInfo: "Jarmusic (Berlin, 1982-2007)",
+    playlistHTML: `
+    <li><a href="https://www.discogs.com/release/23009075">American Night - Far Away</a></li>
+    <li><a href="https://www.discogs.com/release/23009075">American Night - Free Man</a></li>
+    <li><a href="https://www.discogs.com/release/11066954">Modern Art - Oriental Towers</a></li>
+    <li><a href="https://www.discogs.com/release/2121338">Cleaners From Venus - A Blue Wave</a></li>
+    <li><a href="https://www.discogs.com/release/2432002">Parts Unknown - Squids Can Fly</a></li>
+    <li><a href="https://www.discogs.com/release/23009075">American Night - Time</a></li>
+    <li><a href="https://www.discogs.com/release/23009075">American Night - Trance</a></li>
+    <li><a href="https://www.discogs.com/release/2432002">Poison Dwarfs - Delay In The Cupboard</a></li>
+    <li><a href="https://www.discogs.com/release/1608021">The Creams - Nasty Soap For Dogs #8</a></li>
+    <li><a href="https://www.discogs.com/release/1795883">The Deep Freeze Mice - This Is Terrible</a></li>
+    <li><a href="https://www.discogs.com/release/5935386">Wilde Spiele - Ich geh' wieder Weg</a></li>
+    <li><a href="https://www.discogs.com/release/1184185">Milovan Srdenovic - Rednecks / Vampires</a><i/li>
+    <li><a href="https://www.discogs.com/release/2432228">Jar - Don't Know</a></li>
+    <li><a href="https://www.discogs.com/release/11066954">Livers Of Angels - Pavilion</a></li>
+    <li><a href="https://www.discogs.com/release/1608021">The Creams - 70s Tea Room</a></li>
+    <li><a href="https://www.discogs.com/release/1795883">Tge Deep Freeze Mice - A Trillion Sprods</a></li>
+    <li><a href="https://www.discogs.com/release/7910978">Cleaners From Venus - Union Lads</a></li>
+`
   }
 
 
