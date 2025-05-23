@@ -697,7 +697,24 @@ const modalData = [
     <li><a href="https://www.discogs.com/release/1795883">Tge Deep Freeze Mice - A Trillion Sprods</a></li>
     <li><a href="https://www.discogs.com/release/7910978">Cleaners From Venus - Union Lads</a></li>
 `
+  },
+  {
+    audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/KonvexKonkav.mp3",
+    labelInfo: "Konvex | Konkav (Frankfurt, 2000-2015)",
+    playlistHTML: `
+    <li><a href="https://www.discogs.com/release/177590">Blake C. - Pulau</a></li>
+    <li><a href="https://www.discogs.com/release/71694">M. Rahn - Cloudmachine</a></li>
+    <li><a href="https://www.discogs.com/release/69381">Multipliar - Christmas Time</a></li>
+    <li><a href="https://www.discogs.com/release/177590">Blake C. - MH674</a></li>
+    <li><a href="https://www.discogs.com/release/101293">Codec - Handle With Care</a></li>
+    <li><a href="https://www.discogs.com/release/55885">Jeff Bennett - Anothering</a></li>
+    <li><a href="https://www.discogs.com/release/88458">Martin Jarl - Majikbum</a></li>
+    <li><a href="https://www.discogs.com/release/101293">Codec - Tiefenschärfe</a></li>
+    <li><a href="https://www.discogs.com/release/69381">Crane A.K. - Jack Fresh D.C.</a></li>
+    <li><a href="https://www.discogs.com/release/69381">M. Rahn - Puffy Nipples</a></li>
+`
   }
+
 
 
 ]
