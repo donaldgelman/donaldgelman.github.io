@@ -713,6 +713,22 @@ const modalData = [
     <li><a href="https://www.discogs.com/release/69381">Crane A.K. - Jack Fresh D.C.</a></li>
     <li><a href="https://www.discogs.com/release/69381">M. Rahn - Puffy Nipples</a></li>
 `
+  },
+  {
+    audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/LevelRecords.mp3",
+    labelInfo: "Level Records (Dusseldorf, 2004-2013)",
+    playlistHTML: `
+    <li><a href="https://www.discogs.com/release/1345008">Anders Ilar - Hillside</a></li>
+    <li><a href="https://www.discogs.com/release/864444">Antonelli Electr. - Wood Turns Electric</a></li>
+    <li><a href="https://www.discogs.com/release/1212326">Fax - Remix Of Paracaidas By Fax (Level Edit)</a></li>
+    <li><a href="https://www.discogs.com/release/1212326">Ekkohaus - The End In View</a></li>
+    <li><a href="https://www.discogs.com/release/439749">Fax - Bajotierra</a></li>
+    <li><a href="https://www.discogs.com/release/2563999">Ziggy Kinder - Funstones</a></li>
+    <li><a href="https://www.discogs.com/release/1420755">Kaitaro - Washer</a></li>
+    <li><a href="https://www.discogs.com/release/1569657">Modul - Friends</a></li>
+    <li><a href="https://www.discogs.com/release/531190">Antonelli Electr. - Snowflake Funk</a></li>
+    <li><a href="https://www.discogs.com/release/8686457">Golden Parachutes - Fireworks</a></li>
+`
   }
 
 
