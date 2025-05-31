@@ -729,6 +729,22 @@ const modalData = [
     <li><a href="https://www.discogs.com/release/531190">Antonelli Electr. - Snowflake Funk</a></li>
     <li><a href="https://www.discogs.com/release/8686457">Golden Parachutes - Fireworks</a></li>
 `
+  },
+  {
+    audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Mitek.mp3",
+    labelInfo: "Mitek (Berlin, 2000-2006)",
+    playlistHTML: `
+    <li><a href="https://www.discogs.com/release/168935-">Son Of Clay - What We Talk About</a></li>
+    <li><a href="https://www.discogs.com/release/152777">Silent Comfort - SC-2</a></li>
+    <li><a href="https://www.discogs.com/release/373568">Johan Skugge - CSB</a></li>
+    <li><a href="https://www.discogs.com/release/119840">Håkan Lidbo - Lite</a></li>
+    <li><a href="https://www.discogs.com/release/119840">John Harding - Alm</a></li>
+    <li><a href="https://www.discogs.com/release/168935-">Jogan Fotmeijer - There's No Purity In Silence</a></li>
+    <li><a href="https://www.discogs.com/release/74809">Andreas Berthling - About The Height Of A Man's Chest</a></li>
+    <li><a href="https://www.discogs.com/release/152777">Grecl - Brott</a></li>
+    <li><a href="https://www.discogs.com/release/168935-">Johan Skugge- Komputer Voodoo</a></li>
+    <li><a href="https://www.discogs.com/release/253800">Mikael Stavöstrand - Lite 3</a></li>
+`
   }
 
 
