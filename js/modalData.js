@@ -745,6 +745,25 @@ const modalData = [
     <li><a href="https://www.discogs.com/release/168935">Johan Skugge- Komputer Voodoo</a></li>
     <li><a href="https://www.discogs.com/release/253800">Mikael Stavöstrand - Lite 3</a></li>
 `
+  },
+  {
+    audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Nexsound.mp3",
+    labelInfo: "Nexsound (Kharkiv, 2000-2015)",
+    playlistHTML: `
+    <li><a href="https://www.discogs.com/release/253292">Geoff Dugan - No Trespassing</a></li>
+    <li><a href="https://www.discogs.com/release/5912">Sidhartha - Alfa Moon (I Cesspool Mix)</a></li>
+    <li><a href="https://www.discogs.com/release/25698">Kotra - 07</a></li>
+    <li><a href="https://www.discogs.com/release/1102464">Andrey Kiritchenko - Scope Of My Perception</a></li>
+    <li><a href="https://www.discogs.com/release/152860">Infra Red Army - Opti Mystique</a></li>
+    <li><a href="https://www.discogs.com/release/976856">The Moglass - Leering Raffies</a></li>
+    <li><a href="https://www.discogs.com/release/257809">Lunt - New Defeats In Posterity</a></li>
+    <li><a href="https://www.discogs.com/release/34290">The Moglass - Gveli</a></li>
+    <li><a href="https://www.discogs.com/release/336923">Tom Carter And Vanessa Arn - Mojave</a></li>
+    <li><a href="https://www.discogs.com/release/5912">Sidhartha - Alfa Moon (Re Mix)</a></li>
+    <li><a href="https://www.discogs.com/release/855669">Perlonex With Charlemagne Palestine - Untitled</a></li>
+    <li><a href="https://www.discogs.com/release/976856">The Moglass - Krevetok Lëgkiy Riad</a></li>
+    <li><a href="https://www.discogs.com/release/1102464">Andrey Kiritchenko - Optical Illusion</a></li>
+`
   }
 
 
