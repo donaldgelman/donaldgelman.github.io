@@ -764,6 +764,25 @@ const modalData = [
     <li><a href="https://www.discogs.com/release/976856">The Moglass - Krevetok Lëgkiy Riad</a></li>
     <li><a href="https://www.discogs.com/release/1102464">Andrey Kiritchenko - Optical Illusion</a></li>
 `
+  },
+  {
+    audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Onitor.mp3",
+    labelInfo: "Onitor (Stuttgart, 1999-2008",
+    playlistHTML: `
+    <li><a href="https://www.discogs.com/release/1056691">Guitar - Flowers Look Up Into The Sky</a></li>
+    <li><a href="https://www.discogs.com/release/134312">Jirku / Judge - Red Light</a></li>
+    <li><a href="https://www.discogs.com/release/423877">Skugge & Stavöstrand - Blue Numbers</a></li>
+    <li><a href="https://www.discogs.com/release/587290">Ma Cherie For Painting - Polen</a></li>
+    <li><a href="https://www.discogs.com/release/381132">Malte Tinnus - Untitled</a></li>
+    <li><a href="https://www.discogs.com/release/587290">Ma Cherie For Painting - Spaghetti-Western</a></li>
+    <li><a href="https://www.discogs.com/release/36621">Electronicat - ...Sur La Plage</a></li>
+    <li><a href="https://www.discogs.com/release/325361">Bjoern Stolpmann - Looked Into The Empty Bottle Of Gin</a></li>
+    <li><a href="https://www.discogs.com/release/340677">Solovyev - Taka</a></li>
+    <li><a href="https://www.discogs.com/release/57757">Sutekh - Pied-Billed Grebe</a></li>
+    <li><a href="https://www.discogs.com/release/292056">Takashi Wada - 3 AM Cityscape</a></li>
+    <li><a href="https://www.discogs.com/release/74675">Stardub - The Source</a></li>
+    <li><a href="https://www.discogs.com/release/292056">Takashi Wada - Lights And Water</a></li>
+`
   }
 
 
