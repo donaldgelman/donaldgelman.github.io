@@ -25,7 +25,7 @@ var videoContainer = document.getElementById('videoContainer'),
         document.createElement('video')
     ],
 
-	vidSourcesMaster = doors_B.concat(doors_C, doors_D, doors_E, doors_F, doors_G, doors_H, doors_I, doors_J, doors_K, doors_L, doors_M, doors_P, doors_R, doors_S, doors_mlms01, doors_mlms02, doors_mlms03, doors_ontheair, doors_tps01, doors_tps02, doors_tps03, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08);
+	vidSourcesMaster = doors_B.concat(doors_C, doors_D, doors_E, doors_F, doors_G, doors_H, doors_I, doors_J, doors_K, doors_L, doors_M, doors_P, doors_R, doors_S, doors_mlms01, doors_mlms02, doors_mlms03, doors_ontheair, doors_spaceaboveandbeyond, doors_tps01, doors_tps02, doors_tps03, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08, doors_txfs09);
 function allVids() {
 	vidSources = vidSourcesMaster;
 	newMode()
@@ -35,7 +35,7 @@ function cinema() {
 	newMode();
 }
 function tv() {
-	vidSources = doors_mlms01.concat(doors_mlms02, doors_mlms03, doors_ontheair, doors_tps01, doors_tps02, doors_tps03, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08);
+	vidSources = doors_mlms01.concat(doors_mlms02, doors_mlms03, doors_ontheair, doors_spaceaboveandbeyond, doors_tps01, doors_tps02, doors_tps03, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08, doors_txfs09);
 	newMode();
 }
 function lessthanfive() {
