@@ -16,6 +16,29 @@ function shuffle(array) {
 
           return array;
 }
+
+// Function to skip to next video when there's an error
+function skipToNextVideo(currentVideo) {
+    console.log('Video error detected, skipping to next video');
+    
+    // Select next index
+    nextActiveVideo = ++nextActiveVideo % vidSources.length;
+    
+    // Determine which video object to use next
+    var nextVideo;
+    if(currentVideo.inx == 0)
+        nextVideo = videoObjects[1];
+    else
+        nextVideo = videoObjects[0];
+    
+    // Hide current video and show next
+    currentVideo.style.display = 'none';
+    nextVideo.style.display = 'block';
+    nextVideo.src = vidSources[nextActiveVideo];
+    nextVideo.load();
+    nextVideo.play();
+}
+
 var videoContainer = document.getElementById('videoContainer'),
     output = document.getElementById('output'),
     nextVideo,
@@ -26,6 +49,7 @@ var videoContainer = document.getElementById('videoContainer'),
     ],
 
 	vidSourcesMaster = doors_B.concat(doors_C, doors_D, doors_E, doors_F, doors_G, doors_H, doors_I, doors_J, doors_K, doors_L, doors_M, doors_P, doors_R, doors_S, doors_mlms01, doors_mlms02, doors_mlms03, doors_ontheair, doors_spaceaboveandbeyond, doors_tps01, doors_tps02, doors_tps03, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08, doors_txfs09, doors_txfs10, doors_txfs11);
+
 function allVids() {
 	vidSources = vidSourcesMaster;
 	newMode()
@@ -105,11 +129,44 @@ videoContainer.appendChild(videoObjects[1]);
 		    videoObjects[0].play();
 	    }
 });
+
 function initVideoElement(video)
 {
     video.playsinline = true;
     video.muted = false;
     video.preload = 'auto'; //but do not set autoplay, because it deletes preload
+
+    // Add error event listener to skip to next video on load error
+    video.onerror = function(e) {
+        console.log('Video load error:', e);
+        skipToNextVideo(this);
+    };
+
+    // Add loadstart event to catch network errors early
+    video.onloadstart = function(e) {
+        // Set a timeout to catch videos that hang during loading
+        var loadTimeout = setTimeout(() => {
+            if (this.readyState === 0) { // HAVE_NOTHING - no data loaded
+                console.log('Video loading timeout, skipping to next');
+                skipToNextVideo(this);
+            }
+        }, 5000); // 5 second timeout
+
+        // Clear timeout if video starts loading properly
+        this.onloadeddata = function() {
+            clearTimeout(loadTimeout);
+        };
+    };
+
+    // Add stalled event listener for network issues
+    video.onstalled = function(e) {
+        console.log('Video stalled, attempting to skip to next');
+        setTimeout(() => {
+            if (this.readyState < 2) { // Less than HAVE_CURRENT_DATA
+                skipToNextVideo(this);
+            }
+        }, 3000); // Wait 3 seconds before giving up
+    };
 
     //loadedmetadata is wrong because if we use it then we get endless loop
     video.onplaying = function(e)
