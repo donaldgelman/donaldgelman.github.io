@@ -105,62 +105,35 @@ videoContainer.appendChild(videoObjects[1]);
 		    videoObjects[0].play();
 	    }
 });
-function initVideoElement(video) {
+function initVideoElement(video)
+{
     video.playsinline = true;
     video.muted = false;
-    video.preload = 'auto'; // but do not set autoplay, because it deletes preload
+    video.preload = 'auto'; //but do not set autoplay, because it deletes preload
 
-    // Handle video playback start
-    video.onplaying = function(e) {
-        // Select next index. If it equals vidSources.length, reset to 0
+    //loadedmetadata is wrong because if we use it then we get endless loop
+    video.onplaying = function(e)
+    {
+        //output.innerHTML = 'Current video source index: ' + nextActiveVideo;
+
+        //select next index. If is equal vidSources.length then it is 0
         nextActiveVideo = ++nextActiveVideo % vidSources.length;
 
-        // Replace the video elements against each other
-        if (this.inx == 0) {
+        //replace the video elements against each other:
+        if(this.inx == 0)
             nextVideo = videoObjects[1];
-        } else {
+        else
             nextVideo = videoObjects[0];
-        }
 
         nextVideo.src = vidSources[nextActiveVideo];
         nextVideo.pause();
     };
 
-    // Handle video end
-    video.onended = function(e) {
+    video.onended = function(e)
+    {
         this.style.display = 'none';
         nextVideo.style.display = 'block';
-        nextVideo.play().catch(function(error) {
-            console.warn(`Failed to play next video: ${nextVideo.src}. Skipping...`);
-            nextVideo.onerror(); // Trigger error handler to skip if play fails
-        });
-    };
-
-    // Handle video error (e.g., broken URL)
-    video.onerror = function(e) {
-        console.warn(`Error loading video: ${this.src}. Skipping to next video.`); // Optional: for debugging
-
-        // Increment to the next video index
-        nextActiveVideo = ++nextActiveVideo % vidSources.length;
-
-        // Determine the next video element
-        if (this.inx == 0) {
-            nextVideo = videoObjects[1];
-        } else {
-            nextVideo = videoObjects[0];
-        }
-
-        // Hide the current (broken) video
-        this.style.display = 'none';
-
-        // Set the next video's source and attempt to play it
-        nextVideo.src = vidSources[nextActiveVideo];
-        nextVideo.style.display = 'block';
-        nextVideo.load();
-        nextVideo.play().catch(function(error) {
-            console.warn(`Failed to play next video: ${nextVideo.src}. Skipping...`);
-            nextVideo.onerror(); // Recursively trigger error handler if the next video also fails
-        });
+        nextVideo.play();
     };
 }
 
