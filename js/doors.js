@@ -105,35 +105,41 @@ videoContainer.appendChild(videoObjects[1]);
 		    videoObjects[0].play();
 	    }
 });
-function initVideoElement(video)
-{
+function initVideoElement(video) {
     video.playsinline = true;
     video.muted = false;
-    video.preload = 'auto'; //but do not set autoplay, because it deletes preload
+    video.preload = 'auto'; // but do not set autoplay, because it deletes preload
 
-    //loadedmetadata is wrong because if we use it then we get endless loop
-    video.onplaying = function(e)
-    {
+    // Handle video playback start
+    video.onplaying = function(e) {
         //output.innerHTML = 'Current video source index: ' + nextActiveVideo;
 
-        //select next index. If is equal vidSources.length then it is 0
+        // Select next index. If it equals vidSources.length, reset to 0
         nextActiveVideo = ++nextActiveVideo % vidSources.length;
 
-        //replace the video elements against each other:
-        if(this.inx == 0)
+        // Replace the video elements against each other
+        if (this.inx == 0) {
             nextVideo = videoObjects[1];
-        else
+        } else {
             nextVideo = videoObjects[0];
+        }
 
         nextVideo.src = vidSources[nextActiveVideo];
         nextVideo.pause();
     };
 
-    video.onended = function(e)
-    {
+    // Handle video end
+    video.onended = function(e) {
         this.style.display = 'none';
         nextVideo.style.display = 'block';
         nextVideo.play();
+    };
+
+    // Handle video error (e.g., broken URL)
+    video.onerror = function(e) {
+        console.warn(`Error loading video: ${this.src}. Skipping to next video.`); // Optional: for debugging
+        // Simulate video end to skip to the next video
+        this.onended();
     };
 }
 
