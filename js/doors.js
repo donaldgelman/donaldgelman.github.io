@@ -112,8 +112,6 @@ function initVideoElement(video) {
 
     // Handle video playback start
     video.onplaying = function(e) {
-        //output.innerHTML = 'Current video source index: ' + nextActiveVideo;
-
         // Select next index. If it equals vidSources.length, reset to 0
         nextActiveVideo = ++nextActiveVideo % vidSources.length;
 
@@ -132,14 +130,37 @@ function initVideoElement(video) {
     video.onended = function(e) {
         this.style.display = 'none';
         nextVideo.style.display = 'block';
-        nextVideo.play();
+        nextVideo.play().catch(function(error) {
+            console.warn(`Failed to play next video: ${nextVideo.src}. Skipping...`);
+            nextVideo.onerror(); // Trigger error handler to skip if play fails
+        });
     };
 
     // Handle video error (e.g., broken URL)
     video.onerror = function(e) {
         console.warn(`Error loading video: ${this.src}. Skipping to next video.`); // Optional: for debugging
-        // Simulate video end to skip to the next video
-        this.onended();
+
+        // Increment to the next video index
+        nextActiveVideo = ++nextActiveVideo % vidSources.length;
+
+        // Determine the next video element
+        if (this.inx == 0) {
+            nextVideo = videoObjects[1];
+        } else {
+            nextVideo = videoObjects[0];
+        }
+
+        // Hide the current (broken) video
+        this.style.display = 'none';
+
+        // Set the next video's source and attempt to play it
+        nextVideo.src = vidSources[nextActiveVideo];
+        nextVideo.style.display = 'block';
+        nextVideo.load();
+        nextVideo.play().catch(function(error) {
+            console.warn(`Failed to play next video: ${nextVideo.src}. Skipping...`);
+            nextVideo.onerror(); // Recursively trigger error handler if the next video also fails
+        });
     };
 }
 
