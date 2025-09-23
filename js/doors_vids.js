@@ -906,7 +906,7 @@ var doors_F = [
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1730505792/womanontherun_normanfoster_1950_8_00.00.003_00.10.347-audio.webm',
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1730505793/womanontherun_normanfoster_1950_8_00.10.388_00.25.658-audio.webm',
 ]
-array = [
+doors_fringes01 = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes01/fringe_s01e01_pilot_alexgraves_2008_1.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes01/fringe_s01e01_pilot_alexgraves_2008_10.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes01/fringe_s01e01_pilot_alexgraves_2008_11.webm',
@@ -1075,7 +1075,7 @@ array = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes01/fringe_s01e20_bradanderson_theresmorethanoneofeverything_2009_5.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes01/fringe_s01e20_bradanderson_theresmorethanoneofeverything_2009_6.webm',
 ]
-array = [
+doors_fringes02 = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes02/fringe_s02e010_jeannotszwarc_greymatters_2009_1.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes02/fringe_s02e010_jeannotszwarc_greymatters_2009_10.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes02/fringe_s02e010_jeannotszwarc_greymatters_2009_2.webm',
@@ -1231,7 +1231,7 @@ array = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes02/fringe_s02e23_akivagoldsman_overtherepart2_2010_5.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes02/fringe_s02e23_akivagoldsman_overtherepart2_2010_6.webm',
 ]
-array = [
+doors_fringes03 = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes03/fringe_s03e01_joechappelle_olivia_2010_1.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes03/fringe_s03e01_joechappelle_olivia_2010_2.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes03/fringe_s03e01_joechappelle_olivia_2010_3.webm',
@@ -1367,7 +1367,7 @@ array = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes03/fringe_s03e22_joechappelle_thedaywedied_2011_2.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes03/fringe_s03e22_joechappelle_thedaywedied_2011_3.webm',
 ]
-array = [
+doors_fringes04 = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_1.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_10.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes04/fringe_s04e01_joechappelle_neitherherenorthere_2011_11.webm',
@@ -1580,7 +1580,7 @@ array = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes04/fringe_s04e22_joechappelle_bravenewworldpart2_2012_2.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes04/fringe_s04e22_joechappelle_bravenewworldpart2_2012_3.webm',
 ]
-array = [
+doors_fringes05 = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes05/fringe_s05e010_jeffreyhunt_anomalyxb6783746_2012_1.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes05/fringe_s05e010_jeffreyhunt_anomalyxb6783746_2012_2.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes05/fringe_s05e010_jeffreyhunt_anomalyxb6783746_2012_3.webm',
