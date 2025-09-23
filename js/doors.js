@@ -82,7 +82,7 @@ function newMode() {
 		videoObjects[0].load();
 	};
 }
-allVids();
+tv();
     //vidSources = vidSourcesMaster;
     //random starting point
     nextActiveVideo = Math.floor((Math.random() * vidSources.length));
