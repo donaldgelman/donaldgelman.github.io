@@ -48,7 +48,8 @@ var videoContainer = document.getElementById('videoContainer'),
         document.createElement('video')
     ],
 
-	vidSourcesMaster = doors_B.concat(doors_C, doors_D, doors_E, doors_F, doors_fringes01, doors_fringes02, doors_fringes03, doors_fringes04, doors_fringes05, doors_G, doors_H, doors_I, doors_J, doors_K, doors_L, doors_M, doors_P, doors_R, doors_S, doors_mlms01, doors_mlms02, doors_mlms03, doors_ontheair, doors_spaceaboveandbeyond, doors_tols01, doors_tols02, doors_tps01, doors_tps02, doors_tps03, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08, doors_txfs09, doors_txfs10, doors_txfs11);
+	vidSourcesMaster = doors_B.concat(doors_C, doors_continuums01, doors_continuums02, doors_continuums03, doors_continuums04, doors_D, doors_E, doors_F, doors_fringes01, doors_fringes02, doors_fringes03, doors_fringes04, doors_fringes05, doors_G, doors_H, doors_I, doors_J, doors_K, doors_L, doors_M, doors_P, doors_R, doors_S, doors_mlms01, doors_mlms02, doors_mlms03, doors_ontheair, doors_spaceaboveandbeyond, doors_thelonegunmen, doors_tols01, doors_tols02, doors_tps01, doors_tps02, doors_tps03, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08, doors_txfs09, doors_txfs10, doors_txfs11);
+
 
 function allVids() {
 	vidSources = vidSourcesMaster;
@@ -59,7 +60,7 @@ function cinema() {
 	newMode();
 }
 function tv() {
-	vidSources = doors_fringes01, doors_fringes02, doors_fringes03, doors_fringes04, doors_fringes05, doors_mlms01.concat(doors_mlms02, doors_mlms03, doors_ontheair, doors_spaceaboveandbeyond, doors_tols01, doors_tols02, doors_tps01, doors_tps02, doors_tps03, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08, doors_txfs09, doors_txfs10, doors_txfs11);
+	vidSources = doors_continuums01.concat(doors_continuums02, doors_continuums03, doors_continuums04, doors_fringes01, doors_fringes02, doors_fringes03, doors_fringes04, doors_fringes05, doors_mlms01, doors_mlms02, doors_mlms03, doors_ontheair, doors_spaceaboveandbeyond, doors_thelonegunmen, doors_tols01, doors_tols02, doors_tps01, doors_tps02, doors_tps03, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08, doors_txfs09, doors_txfs10, doors_txfs11);
 	newMode();
 }
 function lessthanfive() {
