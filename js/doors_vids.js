@@ -4043,7 +4043,7 @@ var doors_sg1s01 = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-sg1s01/stargatesg1_s01e21_davidwarrysmith_withintheserpentsgrasp_1998_3.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-sg1s01/stargatesg1_s01e21_davidwarrysmith_withintheserpentsgrasp_1998_4.webm',
 ]
-var doors_sg1so2 = [
+var doors_sg1s02 = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-sg1s02/stargatesg1_s02e01_jonathanglassner_theserpentslair_1998_1.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-sg1s02/stargatesg1_s02e01_jonathanglassner_theserpentslair_1998_2.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-sg1s02/stargatesg1_s02e02_martinwood_inthelineofduty_1998_1.webm',
