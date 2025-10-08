@@ -4770,7 +4770,7 @@ var doors_sg1s04 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s04/stargatesg1_s04e21_michaelshanks_doublejeopardy_2001_1.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s04/stargatesg1_s04e22_davidwarrysmith_exodus_2001_1.webm',
 ]
-var doors-sg1s05 = [
+var doors_sg1s05 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e02_peterdeluise_threshold_2001_1.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_1.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_10.webm',
@@ -4792,21 +4792,6 @@ var doors-sg1s05 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e06_peterdeluise_riteofpassage_2001_3.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e06_peterdeluise_riteofpassage_2001_4.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e06_peterdeluise_riteofpassage_2001_5.webm',
-]
-var doors_sg1s05 = [
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e01_peterdeluise_threshold_2001_1.webm',
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_1.webm',
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_10.webm',
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_11.webm',
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_12.webm',
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_2.webm',
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_3.webm',
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_4.webm',
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_5.webm',
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_6.webm',
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_7.webm',
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_8.webm',
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_9.webm',
 ]
 var doors_S = [
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1729821223/doors_S/alien_ridleyscott_1979_1.webm',
