@@ -4770,11 +4770,8 @@ var doors_sg1s04 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s04/stargatesg1_s04e21_michaelshanks_doublejeopardy_2001_1.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s04/stargatesg1_s04e22_davidwarrysmith_exodus_2001_1.webm',
 ]
-var doors-sg1s05 = [
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e01_peterdeluise_threshold_2001_1.webm',
-]
 var doors_sg1s05 = [
-'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e01_peterdeluise_threshold_2001_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e02_peterdeluise_threshold_2001_1.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_1.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_10.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e03_martinwood_ascension_2001_11.webm',
