@@ -78,17 +78,14 @@
       background-color: #4CAF50;
       border: none;
       color: white;
-      /*padding: 10px 20px;*/
+      padding: 8px 16px; /* Slightly smaller padding for header placement */
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 16px;
+      font-size: 14px; /* Slightly smaller font for header */
       margin: 4px 2px;
       cursor: pointer;
       border-radius: 4px;
-      width: 24px;
-    }
-    .play-button.playing {
 /*      background-color: #f44336;*/
     }
     ul {
@@ -110,8 +107,10 @@
 </head>
 <body>
 <!-- Header -->
+<!-- Header -->
 <div class="header">
   <a href="/" style="font-size: 24px; color: white; position: fixed; top: 10px; left: 10px; z-index: 1001;">/</a>
+  <button id="radioButton" class="play-button">radio</button>
 </div>
   <!-- Fixed Audio Player -->
   <div id="fixedPlayer">
@@ -206,6 +205,6 @@
     </div>
   </div>
   <script src="js/deadlabels_modal.js"></script>
-  <script src="js/modalData.js"></script>
+  <script src="js/radio_modalData.js"></script>
 </body>
 </html>

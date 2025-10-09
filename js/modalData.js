@@ -1,3 +1,68 @@
+// Function to play a random stream with optional start time
+function playRandomStream(startFromZero = false) {
+  const audioPlayer = document.getElementById('audioPlayer');
+  const fixedPlayer = document.getElementById('fixedPlayer');
+  const nowPlaying = document.getElementById('nowPlaying');
+  const audioModal = document.getElementById('audioModal');
+
+  // Stop and fully reset the audio player
+  audioPlayer.pause();
+  audioPlayer.currentTime = 0;
+  audioPlayer.removeAttribute('src'); // Clear audio player src
+  const audioSource = document.getElementById('audioSource');
+  audioSource.remove(); // Remove old source element
+
+  // Create a new source element to ensure no caching
+  const newSource = document.createElement('source');
+  newSource.id = 'audioSource';
+  newSource.type = 'audio/mp3';
+  audioPlayer.appendChild(newSource);
+
+  // Close the modal if open
+  audioModal.style.display = 'none';
+
+  // Select a random stream from modalData
+  const randomIndex = Math.floor(Math.random() * modalData.length);
+  const selectedStream = modalData[randomIndex];
+
+  // Debug: Log the selected stream
+  console.log('Selected stream:', selectedStream.audioUrl, 'Index:', randomIndex);
+
+  // Set the audio source and now playing text
+  newSource.src = selectedStream.audioUrl;
+  nowPlaying.textContent = `Now Playing: ${selectedStream.labelInfo}`;
+  audioPlayer.load(); // Reload the audio element
+
+  // Show the fixed player
+  fixedPlayer.style.display = 'flex';
+
+  // Set start time and play
+  const metadataListener = function() {
+    if (!startFromZero && audioPlayer.duration && !isNaN(audioPlayer.duration) && isFinite(audioPlayer.duration)) {
+      audioPlayer.currentTime = Math.random() * audioPlayer.duration;
+    } else {
+      audioPlayer.currentTime = 0;
+    }
+    audioPlayer.play().catch(error => {
+      console.error('Error playing audio:', error);
+      nowPlaying.textContent += ' (Playback error, please try again)';
+    });
+    audioPlayer.removeEventListener('loadedmetadata', metadataListener); // Clean up
+  };
+  audioPlayer.addEventListener('loadedmetadata', metadataListener);
+}
+
+// Radio button click: Start with random position
+document.getElementById('radioButton').addEventListener('click', function() {
+  playRandomStream(false); // Random start time for initial click
+});
+
+// When a stream ends, play the next random stream from the beginning
+const endedListener = function() {
+  playRandomStream(true); // Start next stream from beginning
+};
+document.getElementById('audioPlayer').removeEventListener('ended', endedListener); // Remove any existing listener
+document.getElementById('audioPlayer').addEventListener('ended', endedListener);
 // Define a mapping of index to audio URL and playlist HTML
 const modalData = [
   {audioUrl: "https://pub-de0f53c245634c89944c7a233bfb40cb.r2.dev/Ambivalence.mp3", 
