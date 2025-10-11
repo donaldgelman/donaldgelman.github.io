@@ -4849,6 +4849,11 @@ var doors_sg1s05 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e17_andymikita_failsafe_2002_5.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e17_andymikita_failsafe_2002_6.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e17_andymikita_failsafe_2002_7.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e19_martinwood_menace_2002_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e20_peterdeluise_thesentinel_2002_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e20_peterdeluise_thesentinel_2002_2.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e21_williamwaring_medidian_2002_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e21_williamwaring_medidian_2002_2.webm',
 ]
 var doors_S = [
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1729821223/doors_S/alien_ridleyscott_1979_1.webm',
