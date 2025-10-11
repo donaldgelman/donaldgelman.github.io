@@ -4855,6 +4855,27 @@ var doors_sg1s05 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e21_williamwaring_medidian_2002_1.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e21_williamwaring_medidian_2002_2.webm',
 ]
+var doors_sg1s06 = [
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e02_martinwood_redemptionpart2_2002_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e03_peterdeluise_descent_2002_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e03_peterdeluise_descent_2002_2.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e03_peterdeluise_descent_2002_3.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e03_peterdeluise_descent_2002_4.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_10.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_11.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_12.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_13.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_14.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_2.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_3.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_4.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_5.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_6.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_7.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_8.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e04_martinwood_frozen_2002_9.webm',
+]
 var doors_S = [
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1729821223/doors_S/alien_ridleyscott_1979_1.webm',
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1729821264/doors_S/alien_ridleyscott_1979_2.webm',
