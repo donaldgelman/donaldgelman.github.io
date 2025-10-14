@@ -4940,6 +4940,26 @@ var doors_sg1s06 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e14_peterdeluise_smokeandmirrors_2003_9.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e15_williamgereghty_paradiselost_2003_1.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e17_williamgereghty_disclosure_2003_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e19_martinwood_thechangeling_2003_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e19_martinwood_thechangeling_2003_2.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e20_peterdeluise_memento_2003_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e20_peterdeluise_memento_2003_2.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e20_peterdeluise_memento_2003_3.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e20_peterdeluise_memento_2003_4.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e20_peterdeluise_memento_2003_5.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e22_martinwood_fullcircle_2003_1.webm',
+]
+var doors_sg1s07 = [
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s07/stargatesg1_s07e01_martinwood_fallen_2003_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s07/stargatesg1_s07e01_martinwood_fallen_2003_2.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s07/stargatesg1_s07e01_martinwood_fallen_2003_3.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s07/stargatesg1_s07e01_martinwood_fallen_2003_4.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s07/stargatesg1_s07e02_martinwood_homecoming_2003_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s07/stargatesg1_s07e02_martinwood_homecoming_2003_2.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s07/stargatesg1_s07e02_martinwood_homecoming_2003_3.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s07/stargatesg1_s07e02_martinwood_homecoming_2003_4.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s07/stargatesg1_s07e02_martinwood_homecoming_2003_5.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s07/stargatesg1_s07e02_martinwood_homecoming_2003_6.webm',
 ]
 var doors_S = [
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1729821223/doors_S/alien_ridleyscott_1979_1.webm',
