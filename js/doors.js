@@ -48,19 +48,19 @@ var videoContainer = document.getElementById('videoContainer'),
         document.createElement('video')
     ],
 
-	vidSourcesMaster = doors_B.concat(doors_C, doors_continuums01, doors_continuums02, doors_continuums03, doors_continuums04, doors_D, doors_ds9, doors_E, doors_eerieindiana, doors_F, doors_fringes01, doors_fringes02, doors_fringes03, doors_fringes04, doors_fringes05, doors_G, doors_H, doors_I, doors_J, doors_K, doors_L, doors_M, doors_nowhereman, doors_P, doors_R, doors_S, doors_sg1s01, doors_sg1s02, doors_sg1s03, doors_sg1s04, doors_sg1s05, doors_sg1s06, doors_sg1s07, doors_sg1s08, doors_mlms01, doors_mlms02, doors_mlms03, doors_ontheair, doors_spaceaboveandbeyond, doors_theinvaderss01, doors_thelonegunmen, doors_theprisoner, doors_tols01, doors_tols02, doors_tols03, doors_tols04, doors_tps01, doors_tps02, doors_tps03, doors_travelerss01, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08, doors_txfs09, doors_txfs10, doors_txfs11);
+	vidSourcesMaster = doors_continuums01.concat(doors_continuums02, doors_continuums03, doors_continuums04, doors_ds9, doors_eerieindiana, doors_fringes01, doors_fringes02, doors_fringes03, doors_fringes04, doors_fringes05, doors_kolchak, doors_nowhereman, doors_sg1s01, doors_sg1s02, doors_sg1s03, doors_sg1s04, doors_sg1s05, doors_sg1s06, doors_sg1s07, doors_sg1s08, doors_mlms01, doors_mlms02, doors_mlms03, doors_ontheair, doors_spaceaboveandbeyond, doors_theinvaderss01, doors_thelonegunmen, doors_theprisoner, doors_tols01, doors_tols02, doors_tols03, doors_tols04, doors_tps01, doors_tps02, doors_tps03, doors_travelerss01, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08, doors_txfs09, doors_txfs10, doors_txfs11);
 
 
 function allVids() {
 	vidSources = vidSourcesMaster;
 	newMode()
 }
-function cinema() {
-	vidSources = doors_B.concat(doors_C, doors_D, doors_E, doors_F, doors_G, doors_H, doors_I, doors_J, doors_K, doors_L, doors_M, doors_P, doors_R, doors_S);
-	newMode();
-}
+//function cinema() {
+//	vidSources = doors_B.concat(doors_C, doors_D, doors_E, doors_F, doors_G, doors_H, doors_I, doors_J, doors_K, doors_L, doors_M, doors_P, doors_R, doors_S);
+//	newMode();
+//}
 function tv() {
-	vidSources = doors_continuums01.concat(doors_continuums02, doors_continuums03, doors_continuums04, doors_ds9, doors_eerieindiana, doors_fringes01, doors_fringes02, doors_fringes03, doors_fringes04, doors_fringes05, doors_mlms01, doors_mlms02, doors_mlms03, doors_nowhereman, doors_ontheair, doors_sg1s01, doors_sg1s02, doors_sg1s03, doors_sg1s04, doors_sg1s05, doors_sg1s06, doors_sg1s07, doors_sg1s08, doors_spaceaboveandbeyond, doors_theinvaderss01, doors_thelonegunmen, doors_theprisoner, doors_tols01, doors_tols02, doors_tols03, doors_tols04, doors_tps01, doors_tps02, doors_tps03, doors_travelerss01, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08, doors_txfs09, doors_txfs10, doors_txfs11);
+	vidSources = doors_continuums01.concat(doors_continuums02, doors_continuums03, doors_continuums04, doors_ds9, doors_eerieindiana, doors_fringes01, doors_fringes02, doors_fringes03, doors_fringes04, doors_fringes05, doors_kolchak, doors_mlms01, doors_mlms02, doors_mlms03, doors_nowhereman, doors_ontheair, doors_sg1s01, doors_sg1s02, doors_sg1s03, doors_sg1s04, doors_sg1s05, doors_sg1s06, doors_sg1s07, doors_sg1s08, doors_spaceaboveandbeyond, doors_theinvaderss01, doors_thelonegunmen, doors_theprisoner, doors_tols01, doors_tols02, doors_tols03, doors_tols04, doors_tps01, doors_tps02, doors_tps03, doors_travelerss01, doors_txfs01, doors_txfs02, doors_txfs03, doors_txfs04, doors_txfs05, doors_txfs06, doors_txfs07, doors_txfs08, doors_txfs09, doors_txfs10, doors_txfs11);
 	newMode();
 }
 function lessthanfive() {
