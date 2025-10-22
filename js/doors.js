@@ -240,57 +240,129 @@ function helpText() {
 	};
 const btn= document.getElementById("btn");
 
-btn.addEventListener('click', function(){
-  var name = document.getElementById("filter").value;
-name = name.split(/[\s,]+/);
-	if (name.length == 1) {
-		vidSources = vidSourcesMaster.filter(element => element.split('/').pop(-1).includes(name[0]));
-	}
-	if (name.length == 2 && name[0] == "NOT") {
-		vidSources = vidSourcesMaster.filter(element => !element.split('/').pop(-1).includes(name[1]));
-	}
-	else if (name.length == 2) {
-		vidSources = vidSourcesMaster.filter(element => element.split('/').pop(-1).includes(name[0]) && element.split('/').pop(-1).includes(name[1]));
-	}
-	else if (name.length == 3 && name[1] == "OR") {
-		vidSources = vidSourcesMaster.filter(element => element.split('/').pop(-1).includes(name[0]) || element.split('/').pop(-1).includes(name[2]));
-	}
-	else if (name.length == 3 && name[1] == "NOT") {
-		vidSources = vidSourcesMaster.filter(element => element.split('/').pop(-1).includes(name[0]) && !element.split('/').pop(-1).includes(name[2]));
-	}
-	else if (name.length == 3) {
-		vidSources = vidSourcesMaster.filter(element => element.split('/').pop(-1).includes(name[0]) && element.split('/').pop(-1).includes(name[1]) && element.split('/').pop(-1).includes(name[2]));
-	}
-	else if (name.length == 4 && name[1] == "OR") {
-		vidSources = vidSourcesMaster.filter(element => element.split('/').pop(-1).includes(name[0]) || element.split('/').pop(-1).includes(name[2]) && element.split('/').pop(-1).includes(name[3]));
-	}
-	else if (name.length == 4 && name[2] == "OR") {
-		vidSources = vidSourcesMaster.filter(element => element.split('/').pop(-1).includes(name[0]) && element.split('/').pop(-1).includes(name[1]) || element.split('/').pop(-1).includes(name[3]));
-	}
-	else if (name.length == 4) {
-		vidSources = vidSourcesMaster.filter(element => element.split('/').pop(-1).includes(name[0]) && element.split('/').pop(-1).includes(name[1]) && element.split('/').pop(-1).includes(name[2]) && element.split('/').pop(-1).includes(name[3]));
-	}
-	else if (name.length == 5 && name[1] == "OR" && name[3] == "OR") {
-		vidSources = vidSourcesMaster.filter(element => element.split('/').pop(-1).includes(name[0]) || element.split('/').pop(-1).includes(name[2]) || element.split('/').pop(-1).includes(name[4]));
-	}
-	
-	shuffle(vidSources);
-	if (videoObjects[0].style.display =='block') {
-		videoObjects[0].src=vidSources[0];
-		videoObjects[0].load();
-	}
-	else if (videoObjects[1].style.display =='block') {
-		videoObjects[1].src=vidSources[0];
-		videoObjects[1].load();
-		videoObjects[1].play();
-	} 
-	else if (!videoObjects[0].style.display && videoObjects[1].style.display == 'none') {
-		videoObjects[0].src=vidSources[0];
-		videoObjects[0].load();
-	};
+btn.addEventListener('click', function () {
+  // Get the search input and split into terms
+  var name = document.getElementById("filter").value.trim();
+  const messageElement = document.getElementById("message"); // Element for onscreen message
+  if (messageElement) messageElement.textContent = ''; // Clear previous message
+
+  if (!name) {
+    // Handle empty input: reset to full list
+    vidSources = [...vidSourcesMaster];
+    shuffle(vidSources);
+    updateVideoSource();
+    return;
+  }
+
+  name = name.split(/[\s,]+/);
+  // Reset vidSources to a copy of vidSourcesMaster before filtering
+  vidSources = [...vidSourcesMaster];
+
+  // Filtering logic
+  if (name.length === 1) {
+    vidSources = vidSources.filter(element =>
+      element.split('/').slice(-1)[0].includes(name[0])
+    );
+  } else if (name.length === 2 && name[0] === "NOT") {
+    vidSources = vidSources.filter(element =>
+      !element.split('/').slice(-1)[0].includes(name[1])
+    );
+  } else if (name.length === 2) {
+    vidSources = vidSources.filter(element =>
+      element.split('/').slice(-1)[0].includes(name[0]) &&
+      element.split('/').slice(-1)[0].includes(name[1])
+    );
+  } else if (name.length === 3 && name[1] === "OR") {
+    vidSources = vidSources.filter(element =>
+      element.split('/').slice(-1)[0].includes(name[0]) ||
+      element.split('/').slice(-1)[0].includes(name[2])
+    );
+  } else if (name.length === 3 && name[1] === "NOT") {
+    vidSources = vidSources.filter(element =>
+      element.split('/').slice(-1)[0].includes(name[0]) &&
+      !element.split('/').slice(-1)[0].includes(name[2])
+    );
+  } else if (name.length === 3) {
+    vidSources = vidSources.filter(element =>
+      element.split('/').slice(-1)[0].includes(name[0]) &&
+      element.split('/').slice(-1)[0].includes(name[1]) &&
+      element.split('/').slice(-1)[0].includes(name[2])
+    );
+  } else if (name.length === 4 && name[1] === "OR") {
+    vidSources = vidSources.filter(element =>
+      element.split('/').slice(-1)[0].includes(name[0]) ||
+      (element.split('/').slice(-1)[0].includes(name[2]) &&
+       element.split('/').slice(-1)[0].includes(name[3]))
+    );
+  } else if (name.length === 4 && name[2] === "OR") {
+    vidSources = vidSources.filter(element =>
+      (element.split('/').slice(-1)[0].includes(name[0]) &&
+       element.split('/').slice(-1)[0].includes(name[1])) ||
+      element.split('/').slice(-1)[0].includes(name[3])
+    );
+  } else if (name.length === 4) {
+    vidSources = vidSources.filter(element =>
+      element.split('/').slice(-1)[0].includes(name[0]) &&
+      element.split('/').slice(-1)[0].includes(name[1]) &&
+      element.split('/').slice(-1)[0].includes(name[2]) &&
+      element.split('/').slice(-1)[0].includes(name[3])
+    );
+  } else if (name.length === 5 && name[1] === "OR" && name[3] === "OR") {
+    vidSources = vidSources.filter(element =>
+      element.split('/').slice(-1)[0].includes(name[0]) ||
+      element.split('/').slice(-1)[0].includes(name[2]) ||
+      element.split('/').slice(-1)[0].includes(name[4])
+    );
+  }
+
+  // Shuffle the results
+  shuffle(vidSources);
+
+  // Check for no results
+  if (vidSources.length === 0) {
+    // Show message and reset to default
+    if (messageElement) {
+      messageElement.textContent = 'Nothing found, returning to default';
+      // Optionally clear the message after 3 seconds
+      setTimeout(() => {
+        messageElement.textContent = '';
+      }, 3000);
+    }
+    // Reset vidSources to full list for default random playback
+    vidSources = [...vidSourcesMaster];
+    shuffle(vidSources);
+  }
+
+  // Update video source
+  updateVideoSource();
 });
+
+// Function to handle video source updates
+function updateVideoSource() {
+  // Ensure there is at least one video source
+  if (vidSources.length === 0) {
+    console.warn('No videos available to play');
+    return;
+  }
+
+  // Update video source based on display state
+  if (videoObjects[0].style.display === 'block') {
+    videoObjects[0].src = vidSources[0];
+    videoObjects[0].load();
+  } else if (videoObjects[1].style.display === 'block') {
+    videoObjects[1].src = vidSources[0];
+    videoObjects[1].load();
+    videoObjects[1].play();
+  } else {
+    // Default case: assume videoObjects[0] should be used
+    videoObjects[0].src = vidSources[0];
+    videoObjects[0].load();
+  }
+}
+
+// Handle Enter key press
 var input = document.getElementById("filter");
-input.addEventListener("keypress", function(event) {
+input.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
     document.getElementById("btn").click();
