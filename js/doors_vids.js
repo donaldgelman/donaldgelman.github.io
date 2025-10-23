@@ -870,6 +870,7 @@ var doors_eerieindiana = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-eerieindiana/eerieindiana_s01e13_1992_06.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-eerieindiana/eerieindiana_s01e13_1992_07.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-eerieindiana/eerieindiana_s01e13_1992_08.webm',
+'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-eerieindiana/eerieindiana_s01e13_1992_08_b.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-eerieindiana/eerieindiana_s01e13_1992_09.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-eerieindiana/eerieindiana_s01e13_1992_10.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-eerieindiana/eerieindiana_s01e14_1992_01.webm',
@@ -3254,6 +3255,12 @@ var doors_sg1s05 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e20_peterdeluise_thesentinel_2002_2.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e21_williamwaring_medidian_2002_1.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e21_williamwaring_medidian_2002_2.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e22_martinwood_revelations_2002_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e22_martinwood_revelations_2002_2.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e22_martinwood_revelations_2002_3.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e22_martinwood_revelations_2002_4.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e22_martinwood_revelations_2002_5.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s05/stargatesg1_s05e22_martinwood_revelations_2002_6.webm',
 ]
 var doors_sg1s06 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-sg1s06/stargatesg1_s06e02_martinwood_redemptionpart2_2002_1.webm',
@@ -5839,6 +5846,14 @@ var doors_travelerss01 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e04_martinwood_hall_2016_7.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e04_martinwood_hall_2016_8.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e04_martinwood_hall_2016_9.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e05_martinwood_room101_2016_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e05_martinwood_room101_2016_2.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e05_martinwood_room101_2016_3.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e05_martinwood_room101_2016_4.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e05_martinwood_room101_2016_5.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e05_martinwood_room101_2016_6.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e05_martinwood_room101_2016_7.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e05_martinwood_room101_2016_8.webm',
 ]
 var doors_txfs01 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693532614/doors_txfs01/thexfiles_s01e01_pilot_robertmandel_1993_01.webm',
