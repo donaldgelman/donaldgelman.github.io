@@ -848,8 +848,25 @@ const modalData = [
     <li><a href="https://www.discogs.com/release/74675">Stardub - The Source</a></li>
     <li><a href="https://www.discogs.com/release/292056">Takashi Wada - Lights And Water</a></li>
 `
+  },
+  {
+    audioUrl: "https://pub-fc920ff30ce94afc909e871acdb8f072.r2.dev/Phthalo.mp3",
+    labelInfo: "Phthalo (California, 1997-2013)",
+    playlistHTML: `
+    <li><a href="https://www.discogs.com/release/316202">4mod3 - Untitled</a></li>
+    <li><a href="https://www.discogs.com/release/316202">4mod3 - Untitled</a></li>
+    <li><a href="https://www.discogs.com/release/283024">Eight Frozen Modules - Scientology Changed My Life</a></li>
+    <li><a href="www.discogs.com/release/11965">Sistol - Keno</a></li>
+    <li><a href="https://www.discogs.com/release/11963">Gerald Wenzel - Cord</a></li>
+    <li><a href="https://www.discogs.com/release/11964">Antenna Farm - Matchbox Gr (Macro Collapse Reconstruction)</a></li>
+    <li><a href="https://www.discogs.com/release/11959">Dntel - Termites In The Bathtub</a></li>
+    <li><a href="https://www.discogs.com/release/57427">Rook Valard - Groin Hea</a></li>
+    <li><a href="https://www.discogs.com/release/166601">Stalaktiten Och Mirjam - Ortodox Lådbil</a></li>
+    <li><a href="https://www.discogs.com/release/166601">Stalaktiten Och Mirjam - Hjärnkemtvätt</a></li>
+    <li><a href="https://www.discogs.com/release/11963">Gerald Wenzel - Prelude To Starrsinn</a></li>
+    <li><a href="https://www.discogs.com/release/316202">4mod3 - Untitled</a></li>
+    <li><a href="www.discogs.com/release/11965">Sistol - Haaska</a></li>
+    <li><a href="https://www.discogs.com/release/316202">4mod3 - Untitled</a></li>
+`
   }
-
-
-
 ]
