@@ -855,7 +855,7 @@ const modalData = [
     playlistHTML: `
     <li><a href="https://www.discogs.com/release/316202">4mod3 - Untitled</a></li>
     <li><a href="https://www.discogs.com/release/316202">4mod3 - Untitled</a></li>
-    <li><a href="https://www.discogs.com/release/283024">Eight Frozen Modules - Scientology Changed My Life</a></li>
+    <li><a href="https://www.discogs.com/release/283024">Eight Frozen Modules - [Scientology] Changed My Life</a></li>
     <li><a href="www.discogs.com/release/11965">Sistol - Keno</a></li>
     <li><a href="https://www.discogs.com/release/11963">Gerald Wenzel - Cord</a></li>
     <li><a href="https://www.discogs.com/release/11964">Antenna Farm - Matchbox Gr (Macro Collapse Reconstruction)</a></li>
