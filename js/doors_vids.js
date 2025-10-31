@@ -5982,6 +5982,27 @@ var doors_travelerss01 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e12_amandatapping_grace_2017_8.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss01/travelers_s01e12_amandatapping_grace_2017_9.webm',
 ]
+var doors_travelerss02 = [
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_10.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_11.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_12.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_13.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_14.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_15.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_16.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_17.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_18.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_19.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_2.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_3.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_4.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_5.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_6.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_7.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_8.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss02/travelers_s02e01_andymikita_avemachina_2017_9.webm',
+]
 var doors_txfs01 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693532614/doors_txfs01/thexfiles_s01e01_pilot_robertmandel_1993_01.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693532609/doors_txfs01/thexfiles_s01e01_pilot_robertmandel_1993_03.webm',
