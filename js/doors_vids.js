@@ -6165,6 +6165,18 @@ var doors_travelerss03 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e02_andymikita_yates_2018_7.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e02_andymikita_yates_2018_8.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e02_andymikita_yates_2018_9.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e03_andymikita_protocol3_2018_1.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e03_andymikita_protocol3_2018_10.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e03_andymikita_protocol3_2018_11.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e03_andymikita_protocol3_2018_12.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e03_andymikita_protocol3_2018_2.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e03_andymikita_protocol3_2018_3.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e03_andymikita_protocol3_2018_4.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e03_andymikita_protocol3_2018_5.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e03_andymikita_protocol3_2018_6.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e03_andymikita_protocol3_2018_7.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e03_andymikita_protocol3_2018_8.webm',
+'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-travelerss03/travelers_s03e03_andymikita_protocol3_2018_9.webm',
 ]
 var doors_txfs01 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693532614/doors_txfs01/thexfiles_s01e01_pilot_robertmandel_1993_01.webm',
