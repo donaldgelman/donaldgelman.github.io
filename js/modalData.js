@@ -868,5 +868,22 @@ const modalData = [
     <li><a href="www.discogs.com/release/11965">Sistol - Haaska</a></li>
     <li><a href="https://www.discogs.com/release/316202">4mod3 - Untitled</a></li>
 `
+  },
+  {
+    audioUrl: "https://pub-07ee6b20bdb14200991e5945579a665f.r2.dev/QuietWorld.mp3",
+    labelInfo: "Quiet World (Swansea, 2006-2017)",
+    playlistHTML: `
+    <li><a href="https://www.discogs.com/release/1044121">Ian Holloway - New Seasons</a></li>
+    <li><a href="https://www.discogs.com/release/8819199">The British Space Group - The Last Of Time</a></li>
+    <li><a href="https://www.discogs.com/release/1352149">Adrian Shenton - Good Manners</a></li>
+    <li><a href="https://www.discogs.com/release/1351238">Banks Bailey & Darren Tate & Ian Holloway – Summerland 3</a></li>
+    <li><a href="https://www.discogs.com/release/4609771">Matthew Shaw - Sandbanks 2 Lunar</a></li>
+    <li><a href="https://www.discogs.com/release/3628837">Colin Andrew Sheffield – Time Will Tell</a></li>
+    <li><a href="https://www.discogs.com/release/3248757">Susan Matthews - Deux 'Du Coin De La Main'</a></li>
+    <li><a href="https://www.discogs.com/release/11004527">Philip Corner - Courtyard</a></li>
+    <li><a href="https://www.discogs.com/release/1352149">Adrian Shenton - Goodnight</a></li>
+
+`
   }
+
 ]
