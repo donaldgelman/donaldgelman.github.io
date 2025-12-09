@@ -3146,6 +3146,21 @@ var doors_ontheair = [
 'https://res.cloudinary.com/roedecker/video/upload/v1736185343/doors_ontheair/ontheair_s01e07_jackfisk_1992_4.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1736185348/doors_ontheair/ontheair_s01e07_jackfisk_1992_5.webm',
 ]
+var doors_outerranges01 = [
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_1.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_10.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_11.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_12.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_13.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_2.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_3.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_4.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_5.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_6.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_7.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_8.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-outerranges01/outerrange_s01e01_alonsoruizpalacios_thevoid_2022_9.webm',
+]
 var doors_sanctuarys01 = [
 'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-sanctuarys01/sanctuary_s01e01_martinwood_sanctuaryforall_2008_1.webm',
 'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-sanctuarys01/sanctuary_s01e01_martinwood_sanctuaryforall_2008_2.webm',
@@ -5945,6 +5960,29 @@ var doors_tols04 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-tols04/theouterlimits_s04e26_steveanker_inourownimage_1998_3.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-tols04/theouterlimits_s04e26_steveanker_inourownimage_1998_4.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-tols04/theouterlimits_s04e26_steveanker_inourownimage_1998_5.webm',
+]
+var doors_tols05 = [
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e01_neillfearnley_alienradio_1999_1.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e01_neillfearnley_alienradio_1999_2.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e01_neillfearnley_alienradio_1999_3.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e01_neillfearnley_alienradio_1999_4.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e01_neillfearnley_alienradio_1999_5.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e01_neillfearnley_alienradio_1999_6.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e01_neillfearnley_alienradio_1999_7.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e01_neillfearnley_alienradio_1999_8.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e01_neillfearnley_alienradio_1999_9.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e02_jimkaufman_donor_1999_1.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e02_jimkaufman_donor_1999_2.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e02_jimkaufman_donor_1999_3.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e02_jimkaufman_donor_1999_4.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e02_jimkaufman_donor_1999_5.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e03_neillfearnley_smallfriends_1999_1.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e03_neillfearnley_smallfriends_1999_2.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e03_neillfearnley_smallfriends_1999_3.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e03_neillfearnley_smallfriends_1999_4.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e03_neillfearnley_smallfriends_1999_5.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e03_neillfearnley_smallfriends_1999_6.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-tols05/theouterlimits_s05e03_neillfearnley_smallfriends_1999_7.webm',
 ]
 var doors_tps01 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1678797083/doors_tps01/twinpeaks_s01e01_lynch_1990_01.webm',
