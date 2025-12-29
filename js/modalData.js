@@ -884,6 +884,23 @@ const modalData = [
     <li><a href="https://www.discogs.com/release/1352149">Adrian Shenton - Goodnight</a></li>
 
 `
+  },
+  {
+    audioUrl: "https://pub-07ee6b20bdb14200991e5945579a665f.r2.dev/RootStrata.mp3",
+    labelInfo: "Root Strata (San Francisco, 2005-2018)",
+    playlistHTML: `
+    <li><a href="https://www.discogs.com/release/9794694">No UFO's - PCM Track I</a></li>
+    <li><a href="https://www.discogs.com/release/930088">Machinefabriek - Slaapmiddel</a></li>
+    <li><a href="https://www.discogs.com/release/4860312">Sean McCann - Port</a></li>
+    <li><a href="https://www.discogs.com/release/2763474">Higuma - Morraine</a></li>
+    <li><a href="https://www.discogs.com/release/3714372">Vestals - Forever Falling</a></li>
+    <li><a href="https://www.discogs.com/release/918164">Harold Budd - Templar</a></li>
+    <li><a href="https://www.discogs.com/release/2763474">Higuma - Burning Colors</a></li>
+    <li><a href="https://www.discogs.com/release/2865415">Ekin Fil - Ima</a></li>
+    <li><a href="https://www.discogs.com/release/9794694">No UFO's - Anthropomorphic Cloud of Smoke</a></li>
+    <li><a href="https://www.discogs.com/release/918164">Harold Budd - Quandari</a></li>
+`
   }
+
 
 ]
