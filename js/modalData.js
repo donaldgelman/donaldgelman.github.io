@@ -900,7 +900,20 @@ const modalData = [
     <li><a href="https://www.discogs.com/release/9794694">No UFO's - Anthropomorphic Cloud of Smoke</a></li>
     <li><a href="https://www.discogs.com/release/918164">Harold Budd - Quandari</a></li>
 `
+  },
+  {
+    audioUrl: "https://pub-07ee6b20bdb14200991e5945579a665f.r2.dev/SyzygyRecords.mp3",
+    labelInfo: "Syzygy Records (Fukuoka, 1993-1997)",
+    playlistHTML: `
+    <li><a href="https://www.discogs.com/release/104166">Okihide - Hoo Poe</a></li>
+    <li><a href="https://www.discogs.com/release/401104">Drawing Future Life - The Day Of Return (With Dolphins)</a></li>
+    <li><a href="https://www.discogs.com/release/200386">FS - Japan</a></li>
+    <li><a href="https://www.discogs.com/release/200386">FS - Birth</a></li>
+    <li><a href="https://www.discogs.com/release/104166">Okihide - The End Of Summer</a></li>
+    <li><a href="https://www.discogs.com/release/400520">Drawing Future Life - 1969</a></li>
+    <li><a href="https://www.discogs.com/release/325500">Takayuki Shiraishi - Clear Away</a></li>
+    <li><a href="https://www.discogs.com/release/325500">Takayuki Shiraishi - Graviton</a></li>
+`
   }
-
 
 ]
