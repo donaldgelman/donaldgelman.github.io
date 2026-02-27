@@ -1,67 +1,94 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <style>
-.topnav {
-  padding:20px;
-  background-color:transparent;
-  overflow:hidden;
-}
-.topnav a {
-  padding: 20px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
+  .topnav{padding:20px;background:transparent;overflow:hidden}
+  .topnav a{padding:20px;text-decoration:none;font-size:25px;color:#818181;display:block}
+  .topnav a:hover{color:#f1f1f1}
+  body{background:black;color:black;margin:0;padding-left:340px}
+  video{width:1000px}
+  #helpBox{width:1000px;color:green;font-size:18px}
+  ul{list-style-type:none;margin:0;padding:0}
+  li{padding:8px 0;color:#818181}
+  #hider{margin-left:3%}
 
-.topnav a:hover {
-  color: #f1f1f1;
-}
+  #seriesSidebar{
+    position:fixed;left:20px;top:80px;width:300px;
+    border-radius:10px;padding:15px 10px;
+    max-height:calc(100vh - 100px);overflow-y:auto;
+    z-index:999;
+  }
+  .series-link{
+    display:block;color:#818181;text-decoration:none;
+    padding:6px 0;cursor:pointer;font-size:14px;
+  }
+  .series-link:hover{color:#f1f1f1;text-decoration:underline}
 
-body {
-	background-color: black;
-	color: black;
-}
-#but {
-     background:none;
-     border:none;
-     margin:0;
-     padding:0;
-     cursor: pointer;
-     color: white;
- }
- video {
-    position:center;
-    width:1000px;
- }
- #helpBox {
-    position:center;
-    width:1000px;
-    color:green;
-    font-size:18px;
- }
- ul {
-	list-style-type:none;
- }
- li {
-	padding: 15px;
-	color:#818181;
- }
- #hider {
-	margin-left: 3%;
- }
+  #mobileMenuBtn{
+    display:none;position:fixed;left:15px;top:15px;
+    background:rgba(20,20,20,.9);color:#818181;border:1px solid #444;
+    padding:12px 16px;font-size:24px;cursor:pointer;z-index:1000;
+    border-radius:8px;
+  }
+  @media(max-width:1080px){
+    body{padding-left:0!important}
+    #seriesSidebar{left:-320px;transition:left .35s ease}
+    #seriesSidebar.open{left:0}
+    #mobileMenuBtn{display:block}
+  }
 </style>
-<div class="topnav">
-	<a href="/index">/</a>
+
+<div class="topnav"><a href="/index">/</a></div>
+<button id="mobileMenuBtn" onclick="document.getElementById('seriesSidebar').classList.toggle('open')">Menu</button>
+
+<div id="seriesSidebar">
+  <div style="color:#818181;font-weight:bold;margin-bottom:8px"></div>
+  <a href="#" class="series-link" onclick="allVids();return false">All</a>
+  <a href="#" class="series-link" onclick="twelvemonkeys();return false">12 Monkeys (2015-2018)</a>
+  <a href="#" class="series-link" onclick="continuum();return false">Continuum (2012-2015)</a>
+  <a href="#" class="series-link" onclick="eerieindiana();return false">Eerie Indiana (1991-1992)</a>
+  <a href="#" class="series-link" onclick="fringe();return false">Fringe (2008-2013)</a>
+  <a href="#" class="series-link" onclick="vidSources = doors_harshrealm; newMode(); return false">Harsh Realm (1999-2000)</a>
+  <a href="#" class="series-link" onclick="kolchak();return false">Kolchak: The Night Stalker (1974-1975)</a>
+  <a href="#" class="series-link" onclick="vidSources = doors_maxheadrooms01.concat(doors_maxheadrooms02); newMode(); return false">Max Headroom (1987)</a>
+  <a href="#" class="series-link" onclick="millennium();return false">Millennium (1996-1999)</a>
+  <a href="#" class="series-link" onclick="nowhereman();return false">Nowhere Man (1995-1996)</a>
+  <a href="#" class="series-link" onclick="ontheair();return false">On The Air (1992)</a>
+  <a href="#" class="series-link" onclick="vidSources = doors_outerranges01.concat(doors_outerranges02); newMode(); return false">Outer Range (2022-2024)</a>
+  <a href="#" class="series-link" onclick="spaceaboveandbeyond();return false">Space: Above and Beyond (1995-1996)</a>
+  <a href="#" class="series-link" onclick="stargateatlantis();return false">Stargate Atlantis (2004-2009)</a>
+  <a href="#" class="series-link" onclick="stargatesg1();return false">Stargate SG-1 (1997-2007)</a>
+  <a href="#" class="series-link" onclick="vidSources = doors_stargateuniverses01.concat(doors_stargateuniverses02); newMode(); return false">Outer Range (2022-2024)</a>
+  <a href="#" class="series-link" onclick="theinvaders();return false">The Invaders (1967-1968)</a>
+  <a href="#" class="series-link" onclick="thelonegunmen();return false">The Lone Gunmen (2001)</a>
+  <a href="#" class="series-link" onclick="theouterlimits();return false">The Outer Limits (1995-2002)</a>
+  <a href="#" class="series-link" onclick="theprisoner();return false">The Prisoner (1967-1968)</a>
+  <a href="#" class="series-link" onclick="thexfiles();return false">The X-Files (1993-2018)</a>
+  <a href="#" class="series-link" onclick="travelers();return false">Travelers (2016-2018)</a>
+  <a href="#" class="series-link" onclick="twinpeaks();return false">Twin Peaks (1990-1991, 2017)</a>
+  <div style="color:#818181;font-weight:bold;margin-bottom:8px">Incomplete</div>
+  <a href="#" class="series-link" onclick="vidSources = doors_sanctuarys01; newMode(); return false">Sanctuary (2008-2011)</a>
+  <a href="#" class="series-link" onclick="startrekdeepspacenine();return false">Star Trek: Deep Space Nine (1993-1999)</a>
 </div>
+
 <div id="videoContainer" style="display:inline-block"></div>
 <b id="output" style="vertical-align:top"></b>
 <div id="instructions">
-	<ul>
-	<li style="display:inline"><button onclick="playpause();">play / pause</button> p key </li><li style="display:inline"><button id="btn">filter</button><input type="text" id="filter" placeholder="e.g. 1991, twinpeaks, etc."></li><li style="display:inline"><button onclick="looper()">loop on / off</button> l key </li><!--<li style="display:inline">mode <button onclick="allVids()">all</button><button onclick="cinema()"</button>film<button onclick="tv()">tv</button>--!></li>
+  <ul>
+    <li style="display:inline"><button onclick="playpause();">play / pause</button> p key </li>
+    <li style="display:inline"><button id="btn">filter</button><input type="text" id="filter" placeholder="e.g. 1991, twinpeaks, etc."></li>
+    <li style="display:inline"><button onclick="looper()">loop on / off</button> l key </li>
+  </ul>
 </div>
-<div id="message" style="color: red; margin: 10px;"></div>
+<div id="message" style="color:red;margin:10px"></div>
 <div id="helpBox"></div>
+
 <script src="js/doors_vids.js"></script>
 <script src="js/doors_vids_lessthanfive.js"></script>
 <script src="js/doors.js"></script>
+
+</body>
+</html>
