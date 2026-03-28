@@ -5841,6 +5841,25 @@ var doors_theexpanses01 = [
 'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses01/theexpanses01_s01e01_terrymcdonough_dulcinea_2015_2.webm',
 'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses01/theexpanses01_s01e01_terrymcdonough_dulcinea_2015_3.webm',
 ]
+var doors_theexpanses02 = [
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e01_breckeisner_safe_2017_1.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e01_breckeisner_safe_2017_2.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e01_breckeisner_safe_2017_3.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e01_breckeisner_safe_2017_4.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e01_breckeisner_safe_2017_5.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e01_breckeisner_safe_2017_6.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e02_breckeisner_doorsandcorners_2017_1.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e03_jeffwoolnough_static_2017_1.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e03_jeffwoolnough_static_2017_2.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e03_jeffwoolnough_static_2017_3.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e03_jeffwoolnough_static_2017_4.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e03_jeffwoolnough_static_2017_5.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e03_jeffwoolnough_static_2017_6.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e03_jeffwoolnough_static_2017_7.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e04_jeffwoolnough_godspeed_2017_1.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e05_davidgrossman_home_2017_1.webm',
+'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses02/theexpanse_s02e05_davidgrossman_home_2017_2.webm',
+]
 var doors_theinvaderss01 = [
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-theinvaderss01/theinvaders_s01e01_josephsargent_beachhead_1967_1.webm',
 'https://pub-36dbf9fcce554c1f864f507ca21304e1.r2.dev/doors-theinvaderss01/theinvaders_s01e01_josephsargent_beachhead_1967_10.webm',
