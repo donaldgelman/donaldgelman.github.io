@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book Libraries</title>
+    <style>
+        body { margin: 0; background: #f0f0f0; font-family: system-ui, sans-serif; }
+        header {
+            padding: 20px;
+            text-align: center;
+            background: #333;
+            color: white;
+        }
+        h1 { margin: 0 0 15px 0; }
+        select {
+            font-size: 1.1em;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: none;
+            background: white;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 15px;
+            padding: 15px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .gallery a {
+            display: block;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .gallery a:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+        }
+        .gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background: white;
+            display: block;
+        }
+        .loading {
+            grid-column: 1 / -1;
+            text-align: center;
+            color: #666;
+            font-size: 1.2em;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1></h1>
+        <select id="librarySelect">
+            <option value="books_bmika.json">Have Read</option>
+            <option value="books_bmika_kaye.json">Kaye Street</option>
+            <option value="books_kaye.json">Kaye Street C</option>
+            <option value="books_rhl.json">Rose Hill</option>
+	    <!--<option value="all">All Libraries</option>--!>
+        </select>
+    </header>
+
+    <div class="gallery" id="gallery">
+    <p class="loading">Loading your library...</p>
+    </div>
+
+    <script>
+        const libraryFiles = [
+            'books_bmika.json',
+            'books_bmika_kaye.json',
+            'books_kaye.json',
+            'books_rhl.json',
+        ];
+
+        const gallery = document.getElementById('gallery');
+        const select = document.getElementById('librarySelect');
+
+        let books = [];
+        let booksLoaded = 0;
+        const booksPerLoad = 30; // How many books to load per scroll
+        let isLoading = false;
+
+        // Helper function to sort books alphabetically
+        function sortBooks(books) {
+            const getSurname = (name) => {
+                if (!name || typeof name !== 'string') return '';
+                const trimmed = name.trim();
+                if (trimmed === '') return '';
+
+                const parts = trimmed.split(/\s+/);
+                if (parts.length === 1) return trimmed.toLowerCase();
+
+                const prefixes = new Set(['de', 'da', 'di', 'do', 'du', 'la', 'le', 'von', 'van', 'der', 'den', 'del', 'della', 'des', 'dos']);
+                let surname = parts[parts.length - 1];
+
+                if (parts.length >= 2 && prefixes.has(surname.toLowerCase())) {
+                    surname = parts[parts.length - 2];
+                }
+
+                return surname.toLowerCase();
+            };
+
+            const getFullNameNormalized = (name) => {
+                return name ? name.trim().toLowerCase() : '';
+            };
+
+            return books.sort((a, b) => {
+                const surnameA = getSurname(a.author);
+                const surnameB = getSurname(b.author);
+
+                if (surnameA !== surnameB) {
+                    return surnameA.localeCompare(surnameB);
+                }
+
+                const fullA = getFullNameNormalized(a.author);
+                const fullB = getFullNameNormalized(b.author);
+                if (fullA !== fullB) {
+                    return fullA.localeCompare(fullB);
+                }
+
+                const titleA = getFullNameNormalized(a.title || '');
+                const titleB = getFullNameNormalized(b.title || '');
+                return titleA.localeCompare(titleB);
+            });
+        }
+
+        async function loadLibrary(file) {
+            gallery.innerHTML = '<p class="loading"></p>';
+            booksLoaded = 0;
+            isLoading = false;
+
+            try {
+                let fetchedBooks = [];
+
+                if (file === 'all') {
+                    const fetches = libraryFiles.map(f => fetch(f).then(r => r.json()));
+                    const allLibraries = await Promise.all(fetches);
+
+                    allLibraries.forEach(lib => {
+                        lib.forEach(book => {
+                            if (book.olid && !books.some(b => b.olid === book.olid)) {
+                                books.push(book);
+                            }
+                        });
+                    });
+                } else {
+                    const response = await fetch(file);
+                    if (!response.ok) throw new Error(`Failed to load ${file}`);
+                    fetchedBooks = await response.json();
+                    books = fetchedBooks;
+                }
+
+                // Sort books alphabetically
+                books = sortBooks(books);
+
+                renderBooks();
+            } catch (err) {
+                gallery.innerHTML = `<p style="grid-column: 1 / -1; text-align: center; color: red;">
+                    Error loading library: ${err.message}
+                </p>`;
+                console.error(err);
+            }
+        }
+
+        function renderBooks() {
+            if (booksLoaded >= books.length) return;
+
+            const booksToRender = books.slice(booksLoaded, booksLoaded + booksPerLoad);
+            booksLoaded += booksToRender.length;
+
+            booksToRender.forEach(book => {
+                const a = document.createElement('a');
+                a.href = book.link || (book.olid ? `https://openlibrary.org/works/${book.olid}` : '#');
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.title = `${book.title || 'Unknown Title'} by ${book.author || 'Unknown Author'}`;
+
+                const img = document.createElement('img');
+                img.src = book.cover;
+                img.alt = `${book.title || 'Book cover'} by ${book.author || ''}`;
+                img.loading = 'lazy';
+
+                a.appendChild(img);
+                gallery.appendChild(a);
+            });
+        }
+
+        function handleScroll() {
+            const scrollBottom = document.documentElement.scrollHeight - window.innerHeight - window.scrollY;
+            if (scrollBottom < 100 && !isLoading) {
+                isLoading = true;
+                renderBooks();
+                isLoading = false;
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Load the selected library initially
+        loadLibrary(select.value);
+
+        select.addEventListener('change', (e) => {
+            loadLibrary(e.target.value);
+        });
+    </script>
+</body>
+</html>
+
