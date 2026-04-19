@@ -1766,6 +1766,19 @@ var doors_firstwaves01 = [
 'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-firstwaves01/firstwave_s01e21_marksobel_theaftertime_1999_9.webm',
 ]
 var doors_firstwaves02 = [
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776039037/doors_firstwaves02/firstwave_s02e01_jorgemontesi_target117_2000_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776587833/doors_firstwaves02/firstwave_s02e02_mikerohl_deepthroat_2000_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776587835/doors_firstwaves02/firstwave_s02e02_mikerohl_deepthroat_2000_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776587838/doors_firstwaves02/firstwave_s02e02_mikerohl_deepthroat_2000_3.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776587839/doors_firstwaves02/firstwave_s02e02_mikerohl_deepthroat_2000_4.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776587841/doors_firstwaves02/firstwave_s02e02_mikerohl_deepthroat_2000_5.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776587843/doors_firstwaves02/firstwave_s02e02_mikerohl_deepthroat_2000_6.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776587846/doors_firstwaves02/firstwave_s02e02_mikerohl_deepthroat_2000_7.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776592382/doors_firstwaves02/firstwave_s02e03_jorgemontesi_theapostles_2000_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776592383/doors_firstwaves02/firstwave_s02e03_jorgemontesi_theapostles_2000_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776592385/doors_firstwaves02/firstwave_s02e03_jorgemontesi_theapostles_2000_3.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776592388/doors_firstwaves02/firstwave_s02e03_jorgemontesi_theapostles_2000_4.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776592391/doors_firstwaves02/firstwave_s02e03_jorgemontesi_theapostles_2000_5.webm',
 ]
 var doors_fringes01 = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-fringes01/fringe_s01e01_pilot_alexgraves_2008_1.webm',
