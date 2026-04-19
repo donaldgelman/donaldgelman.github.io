@@ -6146,6 +6146,9 @@ var doors_startrekdeepspacenines06 = [
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1776477766/doors_startrekdeepspacenines06/startrekdeepspacenine_s06e19_victorlobl_inthepalemoonlight_1998_4.webm',
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1776538961/doors_startrekdeepspacenines06/startrekdeepspacenine_s06e20_allankroeker_hisway_1998_1.webm',
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1776538965/doors_startrekdeepspacenines06/startrekdeepspacenine_s06e20_allankroeker_hisway_1998_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776538975/doors_startrekdeepspacenines06/startrekdeepspacenine_s06e20_allankroeker_hisway_1998_3.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776561869/doors_startrekdeepspacenines06/startrekdeepspacenine_s06e21_jesussalvadortrevino_thereckoning_1998_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1776561872/doors_startrekdeepspacenines06/startrekdeepspacenine_s06e21_jesussalvadortrevino_thereckoning_1998_2.webm',
 ]
 var doors_theexpanses01 = [
 'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-theexpanses01/theexpanse_s01e02_terrymcdonough_thebigempty_2015_1.webm',
