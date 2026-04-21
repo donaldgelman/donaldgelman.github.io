@@ -159,10 +159,9 @@
                     fetchedBooks = await response.json();
                     books = fetchedBooks;
                 }
-
-                // Sort books alphabetically
-                books = sortBooks(books);
-
+                if (file !== 'books_bmika_canon.json') {
+                    books = sortBooks(books);
+                }
                 renderBooks();
             } catch (err) {
                 gallery.innerHTML = `<p style="grid-column: 1 / -1; text-align: center; color: red;">
