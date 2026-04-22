@@ -72,8 +72,7 @@
     <div class="gallery" id="gallery">
     <p class="loading">Loading your library...</p>
     </div>
-
-    <script>
+<script>
         const libraryFiles = [
             'books_bmika.json',
             'books_bmika_kaye.json',
@@ -162,6 +161,11 @@
                 if (file !== 'books_bmika_canon.json') {
                     books = sortBooks(books);
                 }
+
+                // === NEW: Show total book count near the top of the gallery ===
+                // Remove loading indicator and insert the count line (styled to span full width like the error message)
+                gallery.innerHTML = `<p style="grid-column: 1 / -1; text-align: center;">Number of books: ${books.length}</p>`;
+                
                 renderBooks();
             } catch (err) {
                 gallery.innerHTML = `<p style="grid-column: 1 / -1; text-align: center; color: red;">
