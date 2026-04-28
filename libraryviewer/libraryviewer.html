@@ -69,6 +69,12 @@
         </select>
     </header>
 
+    <input 
+  	type="text" 
+  	id="bookSearch" 
+  	placeholder="Search by title or author..." 
+  	style="width: 100%; max-width: 420px; padding: 10px 12px; font-size: 16px; margin: 15px 0 5px 0; border: 1px solid #ccc; border-radius: 6px;"
+>
     <div class="gallery" id="gallery">
     <p class="loading">Loading your library...</p>
     </div>
@@ -83,10 +89,13 @@
 
         const gallery = document.getElementById('gallery');
         const select = document.getElementById('librarySelect');
+        const searchInput = document.getElementById('bookSearch');
 
-        let books = [];
+        let books = [];           // full library
+        let displayedBooks = [];  // filtered list used for rendering
+        let searchTerm = '';      // current search text
         let booksLoaded = 0;
-        const booksPerLoad = 30; // How many books to load per scroll
+        const booksPerLoad = 30;
         let isLoading = false;
 
         // Helper function to sort books alphabetically
@@ -133,6 +142,22 @@
             });
         }
 
+        function getFilteredBooks() {
+            if (!searchTerm || !searchTerm.trim()) {
+                return books;
+            }
+            const term = searchTerm.toLowerCase().trim();
+            return books.filter(book => {
+                const titleMatch  = (book.title  || '').toLowerCase().includes(term);
+                const authorMatch = (book.author || '').toLowerCase().includes(term);
+                return titleMatch || authorMatch;
+            });
+        }
+
+        function updateDisplayedBooks() {
+            displayedBooks = getFilteredBooks();
+        }
+
         async function loadLibrary(file) {
             gallery.innerHTML = '<p class="loading"></p>';
             booksLoaded = 0;
@@ -158,14 +183,18 @@
                     fetchedBooks = await response.json();
                     books = fetchedBooks;
                 }
+
                 if (file !== 'books_bmika_canon.json') {
                     books = sortBooks(books);
                 }
 
-                // === NEW: Show total book count near the top of the gallery ===
-                // Remove loading indicator and insert the count line (styled to span full width like the error message)
-                gallery.innerHTML = `<p style="grid-column: 1 / -1; text-align: center;">Number of books: ${books.length}</p>`;
-                
+                searchTerm = '';
+                updateDisplayedBooks();
+
+                gallery.innerHTML = `<p id="bookCount" style="grid-column: 1 / -1; text-align: center;">
+                    Number of books: ${books.length}
+                </p>`;
+
                 renderBooks();
             } catch (err) {
                 gallery.innerHTML = `<p style="grid-column: 1 / -1; text-align: center; color: red;">
@@ -176,9 +205,9 @@
         }
 
         function renderBooks() {
-            if (booksLoaded >= books.length) return;
+            if (booksLoaded >= displayedBooks.length) return;
 
-            const booksToRender = books.slice(booksLoaded, booksLoaded + booksPerLoad);
+            const booksToRender = displayedBooks.slice(booksLoaded, booksLoaded + booksPerLoad);
             booksLoaded += booksToRender.length;
 
             booksToRender.forEach(book => {
@@ -198,6 +227,29 @@
             });
         }
 
+        function performSearch() {
+            searchTerm = searchInput ? searchInput.value : '';
+
+            updateDisplayedBooks();
+
+            const countEl = document.getElementById('bookCount');
+            if (countEl) {
+                let text = `Number of books: ${books.length}`;
+                if (searchTerm.trim()) {
+                    text += ` (${displayedBooks.length} matches for “${searchTerm}”)`;
+                }
+                countEl.textContent = text;
+            }
+
+            while (gallery.children.length > 1) {
+                gallery.removeChild(gallery.lastElementChild);
+            }
+
+            booksLoaded = 0;
+            isLoading = false;
+            renderBooks();
+        }
+
         function handleScroll() {
             const scrollBottom = document.documentElement.scrollHeight - window.innerHeight - window.scrollY;
             if (scrollBottom < 100 && !isLoading) {
@@ -209,13 +261,17 @@
 
         window.addEventListener('scroll', handleScroll);
 
-        // Load the selected library initially
         loadLibrary(select.value);
 
         select.addEventListener('change', (e) => {
+            if (searchInput) searchInput.value = ''; 
             loadLibrary(e.target.value);
         });
+
+        if (searchInput) {
+            searchInput.addEventListener('input', performSearch);
+        }
     </script>
-</body>
+    </body>
 </html>
 
