@@ -1630,6 +1630,17 @@ var doors_farscapes02 = [
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1784197562/doors_farscapes02/farscape_s02e22_rowanwoods_diemedichotomy_2001_1.webm',
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1784197565/doors_farscapes02/farscape_s02e22_rowanwoods_diemedichotomy_2001_2.webm',
 ]
+var doors_farscapes03 = [
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1784291954/doors_farscapes03/farscape_s03e01_ianwatson_seasonofdeath_2001_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1784291957/doors_farscapes03/farscape_s03e01_ianwatson_seasonofdeath_2001_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1784291959/doors_farscapes03/farscape_s03e01_ianwatson_seasonofdeath_2001_3.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1784291965/doors_farscapes03/farscape_s03e01_ianwatson_seasonofdeath_2001_4.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1784291972/doors_farscapes03/farscape_s03e01_ianwatson_seasonofdeath_2001_5.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1784291979/doors_farscapes03/farscape_s03e01_ianwatson_seasonofdeath_2001_6.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1784370220/doors_farscapes03/farscape_s03e02_andrewprowse_sunsandlovers_2001_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1784538475/doors_farscapes03/farscape_s03e04_tonytilse_selfinflictedwoundswaitforthewheel_2001_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1784538479/doors_farscapes03/farscape_s03e04_tonytilse_selfinflictedwoundswaitforthewheel_2001_2.webm',
+]
 var doors_firstwaves01 = [
 'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-firstwaves01/firstwave_s01e01_brentonspencer_subject117_1998_1.webm',
 'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-firstwaves01/firstwave_s01e01_brentonspencer_subject117_1998_10.webm',
