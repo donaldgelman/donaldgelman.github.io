@@ -1687,6 +1687,11 @@ var doors_farscapes03 = [
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1786409221/doors_farscapes03/farscape_s03e21_rowanwoods_intothelionsden2wolfinsheepsclothing_2002_1.webm',
 ]
 var doors_farscapes04 = [
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1786521290/doors_farscapes04/farscape_s04e01_andrewprowse_crichtonkicks_2002_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1786925384/doors_farscapes04/farscape_s04e05_geoffbennett_promises_2002_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1787017197/doors_farscapes04/farscape_s04e06_ianwatson_naturalelection_2002_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1787017200/doors_farscapes04/farscape_s04e06_ianwatson_naturalelection_2002_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1787017203/doors_farscapes04/farscape_s04e06_ianwatson_naturalelection_2002_3.webm',
 ]
 var doors_firstwaves01 = [
 'https://pub-0390a58f00074714b04bbebcd04ef6a3.r2.dev/doors-firstwaves01/firstwave_s01e01_brentonspencer_subject117_1998_1.webm',
