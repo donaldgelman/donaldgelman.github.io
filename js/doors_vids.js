@@ -4582,6 +4582,13 @@ var doors_sanctuarys02 = [
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1788829255/doors_sanctuarys02/sanctuary_s02e01_martinwood_endofnights1_2009_3.webm',
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1788829264/doors_sanctuarys02/sanctuary_s02e01_martinwood_endofnights1_2009_4.webm',
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1788829272/doors_sanctuarys02/sanctuary_s02e01_martinwood_endofnights1_2009_5.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1788829279/doors_sanctuarys02/sanctuary_s02e01_martinwood_endofnights1_2009_6.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1788879609/doors_sanctuarys02/sanctuary_s02e02_martinwood_endofnights2_2009_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1788879612/doors_sanctuarys02/sanctuary_s02e02_martinwood_endofnights2_2009_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1788879617/doors_sanctuarys02/sanctuary_s02e02_martinwood_endofnights2_2009_3.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1788947168/doors_sanctuarys02/sanctuary_s02e03_brentonspencer_eulogy_2009_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1788947172/doors_sanctuarys02/sanctuary_s02e03_brentonspencer_eulogy_2009_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1788947176/doors_sanctuarys02/sanctuary_s02e03_brentonspencer_eulogy_2009_3.webm',
 ]
 var doors_sg1s01 = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-sg1s01/stargatesg1_s01e01_marioazzopardi_childrenofthegods_1997_1.webm',
@@ -10804,6 +10811,7 @@ var doors_txfs01 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1693602025/doors_txfs01/thexfiles_s01e07_ghostinthemachine_jerroldfreedman_1993_03.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693602007/doors_txfs01/thexfiles_s01e07_ghostinthemachine_jerroldfreedman_1993_04.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693602032/doors_txfs01/thexfiles_s01e07_ghostinthemachine_jerroldfreedman_1993_04_b.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1789045736/doors_txfs01/thexfiles_s01e07_ghostinthemachine_jerroldfreedman_1993_05.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693602031/doors_txfs01/thexfiles_s01e07_ghostinthemachine_jerroldfreedman_1993_06.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1678580484/doors_txfs01/thexfiles_s01e07_ghostinthemachine_jerroldfreedman_1993_07.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1678580508/doors_txfs01/thexfiles_s01e07_ghostinthemachine_jerroldfreedman_1993_08.webm',
