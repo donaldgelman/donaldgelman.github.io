@@ -4589,6 +4589,11 @@ var doors_sanctuarys02 = [
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1788947168/doors_sanctuarys02/sanctuary_s02e03_brentonspencer_eulogy_2009_1.webm',
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1788947172/doors_sanctuarys02/sanctuary_s02e03_brentonspencer_eulogy_2009_2.webm',
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1788947176/doors_sanctuarys02/sanctuary_s02e03_brentonspencer_eulogy_2009_3.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1788947179/doors_sanctuarys02/sanctuary_s02e03_brentonspencer_eulogy_2009_4.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789059716/doors_sanctuarys02/sanctuary_s02e04_martinwood_hero_2009_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789059721/doors_sanctuarys02/sanctuary_s02e04_martinwood_hero_2009_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789059727/doors_sanctuarys02/sanctuary_s02e04_martinwood_hero_2009_3.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789059732/doors_sanctuarys02/sanctuary_s02e04_martinwood_hero_2009_4.webm',
 ]
 var doors_sg1s01 = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-sg1s01/stargatesg1_s01e01_marioazzopardi_childrenofthegods_1997_1.webm',
@@ -11593,6 +11598,7 @@ var doors_txfs04 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1690999450/doors_txfs04/thexfiles_s04e06_sanguinarium_kimmanners_1996_27.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690999493/doors_txfs04/thexfiles_s04e06_sanguinarium_kimmanners_1996_28.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1690999523/doors_txfs04/thexfiles_s04e06_sanguinarium_kimmanners_1996_29.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1789376703/doors_txfs04/thexfiles_s04e06_sanguinarium_kimmanners_1996_30.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1760030912/doors_txfs04/thexfiles_s04e07_jameswong_musingsofacigarettesmokingman_10.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1760030919/doors_txfs04/thexfiles_s04e07_jameswong_musingsofacigarettesmokingman_10_b.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1760030920/doors_txfs04/thexfiles_s04e07_jameswong_musingsofacigarettesmokingman_10_c.webm',
