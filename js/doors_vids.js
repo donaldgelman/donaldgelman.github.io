@@ -4640,6 +4640,17 @@ var doors_sanctuarys02 = [
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1789779238/doors_sanctuarys02/sanctuary_s02e12_martinwood_kali1_2010_6.webm',
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1789779243/doors_sanctuarys02/sanctuary_s02e12_martinwood_kali1_2010_7.webm',
 ]
+var doors_sanctuarys03 = [
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789867787/doors_sanctuarys03/sanctuary_s03e01_martinwood_kali3_2010_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789867793/doors_sanctuarys03/sanctuary_s03e01_martinwood_kali3_2010_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789867799/doors_sanctuarys03/sanctuary_s03e01_martinwood_kali3_2010_3.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789867806/doors_sanctuarys03/sanctuary_s03e01_martinwood_kali3_2010_4.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789947828/doors_sanctuarys03/sanctuary_s03e02_martinwood_firewall_2010_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789947833/doors_sanctuarys03/sanctuary_s03e02_martinwood_firewall_2010_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789947835/doors_sanctuarys03/sanctuary_s03e02_martinwood_firewall_2010_3.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789947838/doors_sanctuarys03/sanctuary_s03e02_martinwood_firewall_2010_4.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1789947840/doors_sanctuarys03/sanctuary_s03e02_martinwood_firewall_2010_5.webm',
+]
 var doors_sg1s01 = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-sg1s01/stargatesg1_s01e01_marioazzopardi_childrenofthegods_1997_1.webm',
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-sg1s01/stargatesg1_s01e01_marioazzopardi_childrenofthegods_1997_2.webm',
