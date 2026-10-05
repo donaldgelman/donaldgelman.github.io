@@ -4734,6 +4734,27 @@ var doors_sanctuarys03 = [
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1790860069/doors_sanctuarys03/sanctuary_s03e15_peterdeluise_wingman_2011_1.webm',
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1790860073/doors_sanctuarys03/sanctuary_s03e15_peterdeluise_wingman_2011_2.webm',
 'https://res.cloudinary.com/dyqya7mid/video/upload/v1790879019/doors_sanctuarys03/sanctuary_s03e16_leewilson_awakening_2011_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1790933992/doors_sanctuarys03/sanctuary_s03e17_martinwood_normandy_2011_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1790933996/doors_sanctuarys03/sanctuary_s03e17_martinwood_normandy_2011_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1790934006/doors_sanctuarys03/sanctuary_s03e17_martinwood_normandy_2011_3.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1790934015/doors_sanctuarys03/sanctuary_s03e17_martinwood_normandy_2011_4.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1790934024/doors_sanctuarys03/sanctuary_s03e17_martinwood_normandy_2011_5.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1790934033/doors_sanctuarys03/sanctuary_s03e17_martinwood_normandy_2011_6.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791047317/doors_sanctuarys03/sanctuary_s03e18_stevenaadelson_carentan_2011_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791137715/doors_sanctuarys03/sanctuary_s03e19_martinwood_outoftheblue_2011_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791137724/doors_sanctuarys03/sanctuary_s03e19_martinwood_outoftheblue_2011_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791137731/doors_sanctuarys03/sanctuary_s03e19_martinwood_outoftheblue_2011_3.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791137734/doors_sanctuarys03/sanctuary_s03e19_martinwood_outoftheblue_2011_4.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791137743/doors_sanctuarys03/sanctuary_s03e19_martinwood_outoftheblue_2011_5.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791137748/doors_sanctuarys03/sanctuary_s03e19_martinwood_outoftheblue_2011_6.webm',
+]
+var doors_sanctuarys04 = [
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791163282/doors_sanctuarys04/sanctuary_s04e01_martinwood_tempus_2011_1.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791163289/doors_sanctuarys04/sanctuary_s04e01_martinwood_tempus_2011_2.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791163298/doors_sanctuarys04/sanctuary_s04e01_martinwood_tempus_2011_3.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791163308/doors_sanctuarys04/sanctuary_s04e01_martinwood_tempus_2011_4.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791163318/doors_sanctuarys04/sanctuary_s04e01_martinwood_tempus_2011_5.webm',
+'https://res.cloudinary.com/dyqya7mid/video/upload/v1791163328/doors_sanctuarys04/sanctuary_s04e01_martinwood_tempus_2011_6.webm',
 ]
 var doors_sg1s01 = [
 'https://pub-b42e1ada411c4ae18037bdf6168383fa.r2.dev/doors-sg1s01/stargatesg1_s01e01_marioazzopardi_childrenofthegods_1997_1.webm',
@@ -10341,6 +10362,7 @@ var doors_tps02 = [
 ]
 var doors_tps03 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1739123906/doors_tps03/twinpeaks_s03e01_davidlynch_15.webm',
+'https://res.cloudinary.com/roedecker/video/upload/v1791073598/doors_tps03/twinpeaks_s03e01_davidlynch_myloghasamessageforyou_01a.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693765340/doors_tps03/twinpeaks_s03e01_lynch_2017_01.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693765393/doors_tps03/twinpeaks_s03e01_lynch_2017_02.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680019759/doors_tps03/twinpeaks_s03e01_lynch_2017_03.webm',
@@ -10472,7 +10494,6 @@ var doors_tps03 = [
 'https://res.cloudinary.com/roedecker/video/upload/v1680023376/doors_tps03/twinpeaks_s03e18_lynch_2017_03.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680023410/doors_tps03/twinpeaks_s03e18_lynch_2017_04.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680023454/doors_tps03/twinpeaks_s03e18_lynch_2017_05.webm',
-'https://res.cloudinary.com/roedecker/video/upload/v1680023478/doors_tps03/twinpeaks_s03e18_lynch_2017_06.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1680023501/doors_tps03/twinpeaks_s03e18_lynch_2017_07.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693767004/doors_tps03/twinpeaks_s03e18_lynch_2017_08.webm',
 'https://res.cloudinary.com/roedecker/video/upload/v1693766972/doors_tps03/twinpeaks_s03e18_lynch_2017_09.webm',
